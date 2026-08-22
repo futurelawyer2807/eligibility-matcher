@@ -31,10 +31,16 @@ function matchFirms(profile) {
       reasons.push(`Doesn't currently offer the opportunity type(s) you selected.`);
     }
 
-    // Location filter — only eliminates on an explicit single-location mismatch
-    if (!eliminated && profile.location !== "UK-wide" && firm.locationTag === "single" && firm.location !== profile.location) {
-      eliminated = true;
-      reasons.push(`Only confirmed in ${firm.location}, not ${profile.location}.`);
+    // Location filter — city-token overlap, so "London / Birmingham" still matches a London-only firm.
+    // Never eliminates a firm whose location is an unspecific "Multiple UK offices" — we don't have confirmed
+    // per-city data for it, so filtering would mean guessing.
+    if (!eliminated && profile.location !== "UK-wide" && firm.location !== "Multiple UK offices") {
+      const cities = s => s.split("/").map(t => t.trim());
+      const overlap = cities(firm.location).some(c => cities(profile.location).includes(c));
+      if (!overlap) {
+        eliminated = true;
+        reasons.push(`Only confirmed in ${firm.location}, not ${profile.location}.`);
+      }
     }
 
     // Score for ranking (higher = better fit), only relevant if not eliminated
@@ -81,11 +87,18 @@ function renderResults(profile) {
     const card = document.createElement("div");
     card.className = "result-card";
     card.setAttribute("data-index", String(i + 1).padStart(2, "0"));
+    const classLabel = firm.classificationRank != null
+      ? Object.keys(CLASS_RANK).find(k => CLASS_RANK[k] === firm.classificationRank) + " minimum"
+      : "No confirmed classification minimum";
+    const applyLink = firm.applyUrl
+      ? `<a class="apply-link" href="${firm.applyUrl}" target="_blank" rel="noopener noreferrer">Apply directly →</a>`
+      : `<span class="apply-link apply-link-unknown">Apply page not confirmed — search "${firm.name} training contract"</span>`;
     card.innerHTML = `
       <div class="firm-name">${firm.name}</div>
       <div class="badges">${renderBadges(firm)}</div>
       <div class="notes">${firm.notes}</div>
-      <div class="meta">${firm.location} · ${firm.opportunityTypes.map(t => t === "vac_scheme" ? "Vacation scheme" : "Training contract").join(", ")}</div>
+      <div class="meta">${firm.location} · ${firm.opportunityTypes.map(t => t === "vac_scheme" ? "Vacation scheme" : "Training contract").join(", ")} · ${classLabel}</div>
+      ${applyLink}
     `;
     resultsEl.appendChild(card);
   });
