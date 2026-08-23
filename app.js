@@ -1,137 +1,100 @@
-const CLASS_RANK = { "1st": 4, "2:1": 3, "2:2": 2, "3rd": 1 };
+let FIRMS = [], OPPORTUNITIES = [], RULES = [];
 
-function matchFirms(profile) {
-  const userRank = CLASS_RANK[profile.classification] ?? null;
-
-  const results = FIRMS.map(firm => {
-    const reasons = [];
-    let eliminated = false;
-
-    // Degree type filter
-    if (firm.degreeType !== "both") {
-      if (firm.degreeType !== profile.degreeType) {
-        eliminated = true;
-        reasons.push(`This firm's confirmed route is ${firm.degreeType} only.`);
-      }
-    }
-
-    // Academic classification filter — only eliminates when the firm has a CONFIRMED minimum
-    if (!eliminated && firm.classificationRank != null && userRank != null) {
-      if (userRank < firm.classificationRank) {
-        eliminated = true;
-        const label = Object.keys(CLASS_RANK).find(k => CLASS_RANK[k] === firm.classificationRank);
-        reasons.push(`Requires a confirmed minimum of ${label} — below your stated classification.`);
-      }
-    }
-
-    // Opportunity type filter — hard filter, user explicitly chose these
-    const wantsMatch = profile.opportunityTypes.some(t => firm.opportunityTypes.includes(t));
-    if (!eliminated && !wantsMatch) {
-      eliminated = true;
-      reasons.push(`Doesn't currently offer the opportunity type(s) you selected.`);
-    }
-
-    // Location filter — city-token overlap, so "London / Birmingham" still matches a London-only firm.
-    // Never eliminates a firm whose location is an unspecific "Multiple UK offices" — we don't have confirmed
-    // per-city data for it, so filtering would mean guessing.
-    if (!eliminated && profile.location !== "UK-wide" && firm.location !== "Multiple UK offices") {
-      const cities = s => s.split("/").map(t => t.trim());
-      const overlap = cities(firm.location).some(c => cities(profile.location).includes(c));
-      if (!overlap) {
-        eliminated = true;
-        reasons.push(`Only confirmed in ${firm.location}, not ${profile.location}.`);
-      }
-    }
-
-    // Score for ranking (higher = better fit), only relevant if not eliminated
-    let score = 0;
-    if (firm.maintenanceGrant) score += firm.maintenanceGrant / 1000;
-    if (firm.pgdlFunded) score += 5;
-    if (firm.verified === "confirmed") score += 3;
-    if (firm.verified === "partial") score += 1;
-
-    return { firm, eliminated, reasons, score };
-  });
-
-  const eligible = results.filter(r => !r.eliminated).sort((a, b) => b.score - a.score);
-  const filteredOut = results.filter(r => r.eliminated);
-
-  return { eligible, filteredOut };
+async function loadData() {
+  const [firms, opportunities, rules] = await Promise.all([
+    fetch("data/firms.json").then(r => r.json()),
+    fetch("data/opportunities.json").then(r => r.json()),
+    fetch("data/rules.json").then(r => r.json())
+  ]);
+  FIRMS = firms; OPPORTUNITIES = opportunities; RULES = rules;
 }
 
-function renderBadges(firm) {
-  let html = `<span class="badge eligible">ELIGIBLE</span>`;
-  if (firm.pgdlRequired) {
-    if (firm.pgdlFunded) {
-      html += `<span class="badge pgdl">PGDL FUNDED${firm.maintenanceGrant ? " + £" + firm.maintenanceGrant.toLocaleString() + " GRANT" : ""}</span>`;
-    } else {
-      html += `<span class="badge unverified">PGDL REQUIRED — FUNDING TBC</span>`;
-    }
-  }
-  if (firm.verified !== "confirmed") {
-    html += `<span class="badge unverified">${firm.verified === "unconfirmed" ? "VERIFY DIRECTLY" : "PARTIALLY VERIFIED"}</span>`;
-  }
-  return html;
+const STATUS_META = {
+  GREEN: { icon: "🟢", label: "Eligible", badgeClass: "eligible" },
+  YELLOW: { icon: "🟡", label: "Check", badgeClass: "check" },
+  RED: { icon: "🔴", label: "Not eligible", badgeClass: "not-eligible" }
+};
+
+function reasonIcon(ok) {
+  return ok === true ? "✓" : ok === false ? "✗" : "?";
+}
+
+function renderCard(result, index) {
+  const { firm, opportunity, status, reasons } = result;
+  const meta = STATUS_META[status];
+  const card = document.createElement("div");
+  card.className = "result-card status-" + status.toLowerCase();
+  card.setAttribute("data-index", String(index + 1).padStart(2, "0"));
+
+  const applyLink = opportunity.applyUrl
+    ? `<a class="apply-link" href="${opportunity.applyUrl}" target="_blank" rel="noopener noreferrer">Apply directly →</a>`
+    : `<span class="apply-link apply-link-unknown">Apply page not confirmed — search "${firm.name} training contract"</span>`;
+
+  const reasonsHtml = reasons.map(r =>
+    `<li class="reason reason-${r.ok === true ? "ok" : r.ok === false ? "fail" : "unverified"}">
+      <span class="reason-icon" aria-hidden="true">${reasonIcon(r.ok)}</span> ${r.text}
+    </li>`
+  ).join("");
+
+  const oppTypeLabel = opportunity.type === "vac_scheme" ? "Vacation scheme" : "Training contract";
+  const uid = "why-" + firm.id + "-" + opportunity.id;
+
+  card.innerHTML = `
+    <div class="firm-name">
+      <span class="status-icon" aria-hidden="true">${meta.icon}</span> ${firm.name}
+      <span class="badge status-badge status-${status.toLowerCase()}">${meta.label}</span>
+    </div>
+    <div class="meta">${opportunity.location} · ${oppTypeLabel} · Jurisdiction: UK (England &amp; Wales)</div>
+    <div class="notes">${opportunity.notes}</div>
+    <button class="why-toggle" aria-expanded="false" aria-controls="${uid}">Why? →</button>
+    <ul id="${uid}" class="why-list" hidden>${reasonsHtml}</ul>
+    ${applyLink}
+  `;
+
+  card.querySelector(".why-toggle").addEventListener("click", (e) => {
+    const btn = e.currentTarget;
+    const list = card.querySelector(".why-list");
+    const expanded = btn.getAttribute("aria-expanded") === "true";
+    btn.setAttribute("aria-expanded", String(!expanded));
+    list.hidden = expanded;
+    btn.textContent = expanded ? "Why? →" : "Hide why ↑";
+  });
+
+  return card;
 }
 
 function renderResults(profile) {
-  const { eligible, filteredOut } = matchFirms(profile);
+  const { green, yellow, red, all } = RulesEngine.evaluateAll(profile, FIRMS, OPPORTUNITIES, RULES);
   const resultsEl = document.getElementById("results");
   const summaryEl = document.getElementById("results-summary");
 
-  summaryEl.textContent = `${eligible.length} eligible opportunit${eligible.length === 1 ? "y" : "ies"} found out of ${FIRMS.length} firms in the dataset.`;
-
+  summaryEl.textContent = `${all.length} opportunities checked — 🟢 ${green.length} eligible, 🟡 ${yellow.length} need checking, 🔴 ${red.length} not eligible.`;
   resultsEl.innerHTML = "";
 
-  eligible.forEach(({ firm }, i) => {
-    const card = document.createElement("div");
-    card.className = "result-card";
-    card.setAttribute("data-index", String(i + 1).padStart(2, "0"));
-    const classLabel = firm.classificationRank != null
-      ? Object.keys(CLASS_RANK).find(k => CLASS_RANK[k] === firm.classificationRank) + " minimum"
-      : "No confirmed classification minimum";
-    const applyLink = firm.applyUrl
-      ? `<a class="apply-link" href="${firm.applyUrl}" target="_blank" rel="noopener noreferrer">Apply directly →</a>`
-      : `<span class="apply-link apply-link-unknown">Apply page not confirmed — search "${firm.name} training contract"</span>`;
-    card.innerHTML = `
-      <div class="firm-name">${firm.name}</div>
-      <div class="badges">${renderBadges(firm)}</div>
-      <div class="notes">${firm.notes}</div>
-      <div class="meta">${firm.location} · ${firm.opportunityTypes.map(t => t === "vac_scheme" ? "Vacation scheme" : "Training contract").join(", ")} · ${classLabel}</div>
-      ${applyLink}
-    `;
-    resultsEl.appendChild(card);
-  });
+  const ranked = [...green, ...yellow];
+  ranked.forEach((r, i) => resultsEl.appendChild(renderCard(r, i)));
 
-  if (filteredOut.length) {
+  if (red.length) {
     const toggle = document.createElement("button");
     toggle.className = "show-filtered-btn";
-    toggle.textContent = `Show ${filteredOut.length} filtered-out firm${filteredOut.length === 1 ? "" : "s"} (and why)`;
-    const filteredWrap = document.createElement("div");
-    filteredWrap.className = "filtered-wrap";
-    filteredWrap.style.display = "none";
-
-    filteredOut.forEach(({ firm, reasons }) => {
-      const card = document.createElement("div");
-      card.className = "result-card filtered";
-      card.innerHTML = `
-        <div class="firm-name">${firm.name}</div>
-        <div class="badges"><span class="badge filtered-badge">NOT SHOWN AS ELIGIBLE</span></div>
-        <div class="notes">${reasons.join(" ")}</div>
-      `;
-      filteredWrap.appendChild(card);
-    });
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.textContent = `Show ${red.length} not-eligible firm${red.length === 1 ? "" : "s"} (and why)`;
+    const wrap = document.createElement("div");
+    wrap.className = "filtered-wrap";
+    wrap.hidden = true;
+    red.forEach((r, i) => wrap.appendChild(renderCard(r, i)));
 
     toggle.addEventListener("click", () => {
-      const visible = filteredWrap.style.display !== "none";
-      filteredWrap.style.display = visible ? "none" : "block";
+      const visible = !wrap.hidden;
+      wrap.hidden = visible;
+      toggle.setAttribute("aria-expanded", String(!visible));
       toggle.textContent = visible
-        ? `Show ${filteredOut.length} filtered-out firm${filteredOut.length === 1 ? "" : "s"} (and why)`
-        : `Hide filtered-out firms`;
+        ? `Show ${red.length} not-eligible firm${red.length === 1 ? "" : "s"} (and why)`
+        : "Hide not-eligible firms";
     });
 
     resultsEl.appendChild(toggle);
-    resultsEl.appendChild(filteredWrap);
+    resultsEl.appendChild(wrap);
   }
 
   document.getElementById("results-section").style.display = "block";
@@ -154,4 +117,9 @@ document.getElementById("profile-form").addEventListener("submit", (e) => {
 
   renderResults(profile);
   document.getElementById("results-section").scrollIntoView({ behavior: "smooth" });
+});
+
+loadData().catch(err => {
+  document.getElementById("results-summary").textContent = "Couldn't load firm data — please refresh the page.";
+  console.error(err);
 });

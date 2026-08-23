@@ -1,0 +1,164 @@
+[
+  {
+    "id": "f001",
+    "name": "Sullivan & Cromwell",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f002",
+    "name": "White & Case",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f003",
+    "name": "Clyde & Co",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f004",
+    "name": "Reed Smith",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f005",
+    "name": "Clifford Chance",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f006",
+    "name": "A&O Shearman",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f007",
+    "name": "Irwin Mitchell",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f008",
+    "name": "Slaughter and May",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f009",
+    "name": "Linklaters",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f010",
+    "name": "Freshfields Bruckhaus Deringer",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f011",
+    "name": "Herbert Smith Freehills",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f012",
+    "name": "Norton Rose Fulbright",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f013",
+    "name": "Baker McKenzie",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f014",
+    "name": "Hogan Lovells",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f015",
+    "name": "Eversheds Sutherland",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f016",
+    "name": "Mishcon de Reya",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f017",
+    "name": "Addleshaw Goddard",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f018",
+    "name": "Ashurst",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f019",
+    "name": "Simmons & Simmons",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f020",
+    "name": "DLA Piper",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f021",
+    "name": "Travers Smith",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f022",
+    "name": "Macfarlanes",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f023",
+    "name": "Charles Russell Speechlys",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f024",
+    "name": "Gowling WLG",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f025",
+    "name": "Shoosmiths",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f026",
+    "name": "Latham & Watkins",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "f027",
+    "name": "Weil Gotshal & Manges",
+    "jurisdiction": "uk-england-wales",
+    "country": "United Kingdom"
+  }
+]

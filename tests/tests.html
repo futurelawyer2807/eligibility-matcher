@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rules engine tests</title>
+</head>
+<body>
+<pre id="out">Running...</pre>
+<script src="../lib/rules-engine.js"></script>
+<script>
+async function run() {
+  const [firms, opportunities, rules] = await Promise.all([
+    fetch("../data/firms.json").then(r => r.json()),
+    fetch("../data/opportunities.json").then(r => r.json()),
+    fetch("../data/rules.json").then(r => r.json())
+  ]);
+
+  const results = [];
+  let pass = 0, fail = 0;
+  function assert(name, cond) {
+    results.push((cond ? "PASS" : "FAIL") + " — " + name);
+    if (cond) pass++; else fail++;
+  }
+
+  function byName(name) {
+    const firm = firms.find(f => f.name === name);
+    const opps = opportunities.filter(o => o.firmId === firm.id);
+    return { firm, opps };
+  }
+
+  function evalFor(profileOverrides) {
+    const profile = Object.assign({
+      degreeType: "non-law",
+      classification: "2:1",
+      opportunityTypes: ["vac_scheme", "training_contract"],
+      location: "UK-wide"
+    }, profileOverrides);
+    return window.RulesEngine.evaluateAll(profile, firms, opportunities, rules);
+  }
+
+  // 1. A 2:1 non-law applicant should be GREEN or YELLOW for Addleshaw Goddard (confirmed 2:1 min), never RED.
+  {
+    const r = evalFor({ classification: "2:1" });
+    const ag = r.all.find(x => x.firm.name === "Addleshaw Goddard");
+    assert("2:1 applicant meets Addleshaw Goddard's confirmed 2:1 minimum", ag.status !== "RED");
+  }
+
+  // 2. A 3rd-class applicant should be RED for Addleshaw Goddard (confirmed 2:1 minimum, below it).
+  {
+    const r = evalFor({ classification: "3rd" });
+    const ag = r.all.find(x => x.firm.name === "Addleshaw Goddard");
+    assert("3rd-class applicant fails Addleshaw Goddard's confirmed 2:1 minimum", ag.status === "RED");
+  }
+
+  // 3. A 2:2 applicant should NOT be eliminated by Gowling WLG (confirmed no minimum).
+  {
+    const r = evalFor({ classification: "2:2" });
+    const gowling = r.all.filter(x => x.firm.name === "Gowling WLG");
+    assert("2:2 applicant not eliminated by Gowling WLG's confirmed no-minimum policy", gowling.every(x => x.status !== "RED"));
+  }
+
+  // 4. A 1st-class applicant should never be eliminated purely on classification grounds anywhere.
+  {
+    const r = evalFor({ classification: "1st" });
+    const classFails = r.red.filter(x => x.reasons.some(rs => !rs.ok && rs.text.includes("classification minimum")));
+    assert("1st-class applicant is never eliminated on classification grounds", classFails.length === 0);
+  }
+
+  // 5. Non-law applicant is never eliminated (every current firm confirms non-law acceptance).
+  {
+    const r = evalFor({ degreeType: "non-law" });
+    const degreeFails = r.red.filter(x => x.reasons.some(rs => !rs.ok && rs.text.includes("law-degree only")));
+    assert("Non-law applicant not eliminated by any current firm's degree-type rule", degreeFails.length === 0);
+  }
+
+  // 6. Vac-scheme-only selection excludes pure training-contract-only opportunities.
+  {
+    const r = evalFor({ opportunityTypes: ["vac_scheme"] });
+    assert("Vac-scheme-only filter excludes Addleshaw Goddard (training_contract only)", !r.all.some(x => x.firm.name === "Addleshaw Goddard"));
+  }
+
+  // 7. Firm with a NOT_VERIFIED classification minimum should be YELLOW, not RED, purely on that basis.
+  {
+    const r = evalFor({ classification: "3rd" });
+    const clydeCo = r.all.find(x => x.firm.name === "Clyde & Co");
+    assert("Unverified classification minimum yields YELLOW (needs checking), never a silent RED", clydeCo.status !== "RED");
+  }
+
+  // 8. Determinism: same input twice yields identical status for every opportunity.
+  {
+    const r1 = evalFor({ classification: "2:1" });
+    const r2 = evalFor({ classification: "2:1" });
+    const same = r1.all.every((x, i) => x.status === r2.all[i].status);
+    assert("Same input + same data produces identical results on repeat evaluation", same);
+  }
+
+  // 9. A location outside every confirmed single-office firm's city should still not eliminate multi-office (unverified-location) firms.
+  {
+    const r = evalFor({ location: "London / Bristol" });
+    const irwin = r.all.filter(x => x.firm.name === "Irwin Mitchell"); // "Multiple UK offices", unspecified cities
+    assert("Firm with unspecified 'Multiple UK offices' location is never eliminated by a location filter", irwin.every(x => x.status !== "RED"));
+  }
+
+  // 10. Every visible result has at least one reason explaining the outcome (never a bare status with no explanation).
+  {
+    const r = evalFor({ classification: "2:1" });
+    assert("Every result includes at least one human-readable reason", r.all.every(x => x.reasons.length > 0));
+  }
+
+  document.getElementById("out").textContent =
+    results.join("\n") + `\n\n${pass} passed, ${fail} failed out of ${pass + fail}`;
+  window.__TEST_SUMMARY__ = { pass, fail, total: pass + fail };
+}
+run();
+</script>
+</body>
+</html>
