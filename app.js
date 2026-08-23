@@ -136,6 +136,30 @@ function renderResults(profile) {
   document.getElementById("results-section").style.display = "block";
 }
 
+const PROFILE_STORAGE_KEY = "eligibility-matcher-profile-v1";
+
+function saveProfile(profile) {
+  try { localStorage.setItem(PROFILE_STORAGE_KEY, JSON.stringify(profile)); } catch (e) { /* localStorage unavailable — not critical */ }
+}
+
+function loadSavedProfile() {
+  try {
+    const raw = localStorage.getItem(PROFILE_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch (e) { return null; }
+}
+
+function applyProfileToForm(profile, form) {
+  if (profile.degreeType) form.degreeType.value = profile.degreeType;
+  if (profile.classification !== undefined) form.classification.value = profile.classification || "";
+  if (profile.location) form.location.value = profile.location;
+  if (Array.isArray(profile.opportunityTypes)) {
+    form.querySelectorAll('input[name="opportunityType"]').forEach(el => {
+      el.checked = profile.opportunityTypes.includes(el.value);
+    });
+  }
+}
+
 document.getElementById("profile-form").addEventListener("submit", (e) => {
   e.preventDefault();
   const form = e.target;
@@ -151,9 +175,15 @@ document.getElementById("profile-form").addEventListener("submit", (e) => {
     return;
   }
 
+  saveProfile(profile);
   renderResults(profile);
   document.getElementById("results-section").scrollIntoView({ behavior: "smooth" });
 });
+
+const savedProfile = loadSavedProfile();
+if (savedProfile) {
+  applyProfileToForm(savedProfile, document.getElementById("profile-form"));
+}
 
 loadData().catch(err => {
   document.getElementById("results-summary").textContent = "Couldn't load firm data — please refresh the page.";
