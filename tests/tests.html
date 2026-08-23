@@ -107,6 +107,27 @@ async function run() {
     assert("Every result includes at least one human-readable reason", r.all.every(x => x.reasons.length > 0));
   }
 
+  // 11. Phase 2 firm: Bristows (confirmed 2:1) fails for a 2:2 applicant.
+  {
+    const r = evalFor({ classification: "2:2" });
+    const bristows = r.all.find(x => x.firm.name === "Bristows");
+    assert("2:2 applicant fails Bristows' confirmed 2:1 minimum", bristows.status === "RED");
+  }
+
+  // 12. Phase 2 firm: Browne Jacobson (confirmed no minimum) never eliminates on classification, even for a 3rd.
+  {
+    const r = evalFor({ classification: "3rd" });
+    const bj = r.all.find(x => x.firm.name === "Browne Jacobson");
+    assert("3rd-class applicant not eliminated by Browne Jacobson's confirmed no-minimum policy", bj.status !== "RED");
+  }
+
+  // 13. Phase 2 location: a Bristol-only firm (Bristows is London — use Walker Morris's Leeds instead) is excluded when filtering to a different single city.
+  {
+    const r = evalFor({ location: "Bristol" });
+    const walkerMorris = r.all.find(x => x.firm.name === "Walker Morris"); // Leeds-only, single-site
+    assert("Leeds-only firm excluded when filtering to Bristol", walkerMorris === undefined || walkerMorris.status === "RED");
+  }
+
   document.getElementById("out").textContent =
     results.join("\n") + `\n\n${pass} passed, ${fail} failed out of ${pass + fail}`;
   window.__TEST_SUMMARY__ = { pass, fail, total: pass + fail };
