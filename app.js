@@ -19,6 +19,41 @@ function reasonIcon(ok) {
   return ok === true ? "✓" : ok === false ? "✗" : "?";
 }
 
+const TODAY = new Date("2026-08-23");
+
+function daysSince(dateStr) {
+  return Math.floor((TODAY - new Date(dateStr)) / 86400000);
+}
+
+// Freshness bucketing per the verification-status plan: recent / recommend re-check / may be outdated.
+function freshnessLabel(dateStr) {
+  const days = daysSince(dateStr);
+  if (days <= 90) return { text: "Verified recently", cls: "fresh" };
+  if (days <= 180) return { text: "Verification recommended", cls: "stale-soon" };
+  return { text: "Information may be outdated", cls: "stale" };
+}
+
+const SOURCE_FIELDS = [
+  ["minClassification", "Classification minimum"],
+  ["acceptsNonLaw", "Non-law acceptance"],
+  ["pgdlRequired", "PGDL requirement"],
+  ["pgdlFunded", "PGDL funding"],
+  ["maintenanceGrantGBP", "Maintenance grant"]
+];
+
+// Dedupe sources by URL — most fields cite the same firm page, no need to repeat it five times.
+function collectSources(rules) {
+  const byUrl = new Map();
+  for (const [key, label] of SOURCE_FIELDS) {
+    const field = rules[key];
+    if (!field || !field.source) continue;
+    const existing = byUrl.get(field.source.url);
+    if (existing) existing.labels.push(label);
+    else byUrl.set(field.source.url, { url: field.source.url, dateVerified: field.source.dateVerified, status: field.status, labels: [label] });
+  }
+  return Array.from(byUrl.values());
+}
+
 const compareSet = new Set(); // set of opportunity ids selected for comparison
 const resultsById = new Map(); // opportunity id -> full result, for building the compare table
 
@@ -44,16 +79,41 @@ function renderCard(result, index) {
   const uid = "why-" + firm.id + "-" + opportunity.id;
   const compareId = "compare-" + opportunity.id;
 
+  const sources = collectSources(result.rules);
+  const newestDate = sources.length ? sources.map(s => s.dateVerified).sort().pop() : null;
+  const freshness = newestDate ? freshnessLabel(newestDate) : null;
+
+  const sourcesHtml = sources.length
+    ? `<div class="sources-block">
+        <div class="sources-title">Sources &amp; verification</div>
+        <ul class="sources-list">
+          ${sources.map(s => `
+            <li>
+              <span class="badge source-status source-status-${s.status.toLowerCase()}">${s.status}</span>
+              ${s.labels.join(", ")} — verified ${s.dateVerified}
+              <a href="${s.url}" target="_blank" rel="noopener noreferrer">Source →</a>
+            </li>
+          `).join("")}
+        </ul>
+      </div>`
+    : `<div class="sources-block sources-none">No individually sourced fields for this opportunity — see general notes above.</div>`;
+
   card.innerHTML = `
     <label class="compare-check"><input type="checkbox" id="${compareId}" ${compareSet.has(opportunity.id) ? "checked" : ""}> Compare</label>
     <div class="firm-name">
       <span class="status-icon" aria-hidden="true">${meta.icon}</span> ${firm.name}
       <span class="badge status-badge status-${status.toLowerCase()}">${meta.label}</span>
     </div>
-    <div class="meta">${opportunity.location} · ${oppTypeLabel} · Jurisdiction: UK (England &amp; Wales)</div>
+    <div class="meta">
+      ${opportunity.location} · ${oppTypeLabel} · Jurisdiction: UK (England &amp; Wales)
+      ${freshness ? `<span class="badge freshness-badge freshness-${freshness.cls}">${freshness.text}</span>` : ""}
+    </div>
     <div class="notes">${opportunity.notes}</div>
     <button class="why-toggle" aria-expanded="false" aria-controls="${uid}">Why? →</button>
-    <ul id="${uid}" class="why-list" hidden>${reasonsHtml}</ul>
+    <div id="${uid}" class="why-list" hidden>
+      <ul class="reasons-list">${reasonsHtml}</ul>
+      ${sourcesHtml}
+    </div>
     ${applyLink}
   `;
 
