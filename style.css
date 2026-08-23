@@ -2,7 +2,7 @@
 
 :root{
   --bg:#fafaf9; --panel:#ffffff; --border:#e4e4e1;
-  --text:#1c1e21; --dim:#5f6368; --faint:#9a9ea5;
+  --text:#1c1e21; --dim:#5f6368; --faint:#6f7379;
   --accent:#16324f; --accent-soft:#eef2f6;
   --success:#2f6b4f; --success-soft:#eaf3ee;
   --warning:#a85a1e; --warning-soft:#faf1e8;
@@ -44,6 +44,13 @@ button[type=submit]:hover{background:var(--accent);}
 
 #results-section{display:none;}
 #results-summary{font-family:var(--mono); font-size:12.5px; color:var(--dim); margin-bottom:20px; letter-spacing:0.02em;}
+.results-controls{display:flex; gap:10px; margin-bottom:16px; flex-wrap:wrap;}
+.results-controls input[type=search]{
+  flex:1; min-width:160px; padding:9px 12px; border:1px solid var(--border); border-radius:6px;
+  font-size:13.5px; font-family:var(--sans); background:#fff; color:var(--text);
+}
+.results-controls select{width:auto; padding:9px 12px; font-size:13px;}
+.empty-state{color:var(--faint); font-size:13.5px; padding:20px 0; text-align:center;}
 
 .result-card{
   background:var(--panel); border:1px solid var(--border); border-radius:8px;

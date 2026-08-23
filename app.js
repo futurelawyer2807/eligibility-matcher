@@ -63,6 +63,39 @@ function renderCard(result, index) {
   return card;
 }
 
+let lastRanked = [];
+
+function renderRanked() {
+  const resultsEl = document.getElementById("results");
+  const existingToggle = resultsEl.querySelector(".show-filtered-btn");
+  const existingWrap = resultsEl.querySelector(".filtered-wrap");
+  resultsEl.querySelectorAll(":scope > .result-card, :scope > .empty-state").forEach(c => c.remove());
+
+  const query = document.getElementById("results-search").value.trim().toLowerCase();
+  const sortMode = document.getElementById("results-sort").value;
+
+  let visible = lastRanked.filter(r => !query || r.firm.name.toLowerCase().includes(query));
+  if (sortMode === "name") {
+    visible = [...visible].sort((a, b) => a.firm.name.localeCompare(b.firm.name));
+  }
+
+  const frag = document.createDocumentFragment();
+  visible.forEach((r, i) => frag.appendChild(renderCard(r, i)));
+  if (existingToggle) resultsEl.insertBefore(frag, existingToggle);
+  else resultsEl.appendChild(frag);
+
+  if (visible.length === 0) {
+    const empty = document.createElement("p");
+    empty.className = "empty-state";
+    empty.textContent = query ? `No matches for "${query}".` : "No results.";
+    if (existingToggle) resultsEl.insertBefore(empty, existingToggle);
+    else resultsEl.appendChild(empty);
+  }
+}
+
+document.getElementById("results-search").addEventListener("input", renderRanked);
+document.getElementById("results-sort").addEventListener("change", renderRanked);
+
 function renderResults(profile) {
   const { green, yellow, red, all } = RulesEngine.evaluateAll(profile, FIRMS, OPPORTUNITIES, RULES);
   const resultsEl = document.getElementById("results");
@@ -70,9 +103,12 @@ function renderResults(profile) {
 
   summaryEl.textContent = `${all.length} opportunities checked — 🟢 ${green.length} eligible, 🟡 ${yellow.length} need checking, 🔴 ${red.length} not eligible.`;
   resultsEl.innerHTML = "";
+  document.getElementById("results-controls").hidden = all.length === 0;
+  document.getElementById("results-search").value = "";
+  document.getElementById("results-sort").value = "status";
 
-  const ranked = [...green, ...yellow];
-  ranked.forEach((r, i) => resultsEl.appendChild(renderCard(r, i)));
+  lastRanked = [...green, ...yellow];
+  renderRanked();
 
   if (red.length) {
     const toggle = document.createElement("button");

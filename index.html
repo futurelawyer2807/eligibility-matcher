@@ -51,6 +51,13 @@
   <div id="results-section">
     <div class="section-label"><span>Your matches</span><span>2.0</span></div>
     <div id="results-summary" role="status" aria-live="polite"></div>
+    <div id="results-controls" class="results-controls" hidden>
+      <input type="search" id="results-search" placeholder="Search firm name…" aria-label="Search results by firm name">
+      <select id="results-sort" aria-label="Sort results">
+        <option value="status">Sort: best match first</option>
+        <option value="name">Sort: firm name (A–Z)</option>
+      </select>
+    </div>
     <div id="results"></div>
   </div>
 
