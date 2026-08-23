@@ -19,8 +19,12 @@ function reasonIcon(ok) {
   return ok === true ? "✓" : ok === false ? "✗" : "?";
 }
 
+const compareSet = new Set(); // set of opportunity ids selected for comparison
+const resultsById = new Map(); // opportunity id -> full result, for building the compare table
+
 function renderCard(result, index) {
   const { firm, opportunity, status, reasons } = result;
+  resultsById.set(opportunity.id, result);
   const meta = STATUS_META[status];
   const card = document.createElement("div");
   card.className = "result-card status-" + status.toLowerCase();
@@ -38,8 +42,10 @@ function renderCard(result, index) {
 
   const oppTypeLabel = opportunity.type === "vac_scheme" ? "Vacation scheme" : "Training contract";
   const uid = "why-" + firm.id + "-" + opportunity.id;
+  const compareId = "compare-" + opportunity.id;
 
   card.innerHTML = `
+    <label class="compare-check"><input type="checkbox" id="${compareId}" ${compareSet.has(opportunity.id) ? "checked" : ""}> Compare</label>
     <div class="firm-name">
       <span class="status-icon" aria-hidden="true">${meta.icon}</span> ${firm.name}
       <span class="badge status-badge status-${status.toLowerCase()}">${meta.label}</span>
@@ -60,8 +66,68 @@ function renderCard(result, index) {
     btn.textContent = expanded ? "Why? →" : "Hide why ↑";
   });
 
+  card.querySelector(`#${compareId}`).addEventListener("change", (e) => {
+    if (e.target.checked) compareSet.add(opportunity.id);
+    else compareSet.delete(opportunity.id);
+    updateCompareBar();
+  });
+
   return card;
 }
+
+function updateCompareBar() {
+  const bar = document.getElementById("compare-bar");
+  const count = compareSet.size;
+  bar.hidden = count === 0;
+  document.getElementById("compare-count").textContent = `${count} selected for comparison`;
+  document.getElementById("compare-show-btn").disabled = count < 2;
+  if (count < 2) document.getElementById("compare-table-wrap").hidden = true;
+}
+
+function classLabel(minClass) {
+  if (minClass.value === "none") return "None stated";
+  if (minClass.value == null) return "Unverified";
+  return minClass.value;
+}
+function yesNo(field) {
+  if (field.value === true) return "Yes";
+  if (field.value === false) return "No";
+  return "Unverified";
+}
+
+function renderCompareTable() {
+  const wrap = document.getElementById("compare-table-wrap");
+  const selected = Array.from(compareSet).map(id => resultsById.get(id)).filter(Boolean);
+  if (selected.length < 2) { wrap.hidden = true; return; }
+
+  const rows = [
+    ["Firm", r => r.firm.name],
+    ["Opportunity", r => r.opportunity.type === "vac_scheme" ? "Vacation scheme" : "Training contract"],
+    ["Location", r => r.opportunity.location],
+    ["Your match", r => STATUS_META[r.status].icon + " " + STATUS_META[r.status].label],
+    ["Classification minimum", r => classLabel(r.rules.minClassification)],
+    ["Accepts non-law", r => yesNo(r.rules.acceptsNonLaw)],
+    ["PGDL required", r => yesNo(r.rules.pgdlRequired)],
+    ["PGDL funded", r => yesNo(r.rules.pgdlFunded)],
+    ["Maintenance grant", r => r.rules.maintenanceGrantGBP.value != null ? "£" + r.rules.maintenanceGrantGBP.value.toLocaleString() : "Unverified"],
+    ["Apply", r => r.opportunity.applyUrl ? `<a href="${r.opportunity.applyUrl}" target="_blank" rel="noopener noreferrer">Apply →</a>` : "Not confirmed"]
+  ];
+
+  let html = `<table class="compare-table"><thead><tr><th>&nbsp;</th>${selected.map(r => `<th>${r.firm.name}</th>`).join("")}</tr></thead><tbody>`;
+  rows.forEach(([label, fn]) => {
+    html += `<tr><th>${label}</th>${selected.map(r => `<td>${fn(r)}</td>`).join("")}</tr>`;
+  });
+  html += `</tbody></table>`;
+  wrap.innerHTML = html;
+  wrap.hidden = false;
+}
+
+document.getElementById("compare-show-btn").addEventListener("click", renderCompareTable);
+document.getElementById("compare-clear-btn").addEventListener("click", () => {
+  compareSet.clear();
+  document.querySelectorAll(".compare-check input").forEach(cb => cb.checked = false);
+  updateCompareBar();
+});
 
 let lastRanked = [];
 
@@ -73,8 +139,12 @@ function renderRanked() {
 
   const query = document.getElementById("results-search").value.trim().toLowerCase();
   const sortMode = document.getElementById("results-sort").value;
+  const pgdlFundedOnly = document.getElementById("filter-pgdl-funded").checked;
 
   let visible = lastRanked.filter(r => !query || r.firm.name.toLowerCase().includes(query));
+  if (pgdlFundedOnly) {
+    visible = visible.filter(r => r.rules.pgdlFunded.value === true);
+  }
   if (sortMode === "name") {
     visible = [...visible].sort((a, b) => a.firm.name.localeCompare(b.firm.name));
   }
@@ -95,6 +165,7 @@ function renderRanked() {
 
 document.getElementById("results-search").addEventListener("input", renderRanked);
 document.getElementById("results-sort").addEventListener("change", renderRanked);
+document.getElementById("filter-pgdl-funded").addEventListener("change", renderRanked);
 
 function renderResults(profile) {
   const { green, yellow, red, all } = RulesEngine.evaluateAll(profile, FIRMS, OPPORTUNITIES, RULES);
@@ -106,6 +177,7 @@ function renderResults(profile) {
   document.getElementById("results-controls").hidden = all.length === 0;
   document.getElementById("results-search").value = "";
   document.getElementById("results-sort").value = "status";
+  document.getElementById("filter-pgdl-funded").checked = false;
 
   lastRanked = [...green, ...yellow];
   renderRanked();
