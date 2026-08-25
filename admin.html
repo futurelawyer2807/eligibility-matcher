@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Data Quality — Eligibility Matcher</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="style.css">
+<style>
+  .admin-wrap{max-width:1100px;}
+  .admin-summary{display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr)); gap:12px; margin-bottom:28px;}
+  .stat-tile{background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:16px 18px;}
+  .stat-tile .stat-num{font-size:26px; font-weight:800; font-family:var(--mono); line-height:1.1;}
+  .stat-tile .stat-label{font-size:11.5px; color:var(--faint); margin-top:4px; text-transform:uppercase; letter-spacing:0.04em;}
+  .stat-tile.warn .stat-num{color:var(--warning);}
+  .stat-tile.bad .stat-num{color:#933b2e;}
+  .admin-table-wrap{overflow-x:auto; border:1px solid var(--border); border-radius:8px; margin-bottom:32px;}
+  table.admin-table{border-collapse:collapse; width:100%; font-size:12.5px; min-width:900px;}
+  table.admin-table th, table.admin-table td{padding:8px 12px; border-bottom:1px solid var(--border); text-align:left; white-space:nowrap;}
+  table.admin-table thead th{background:var(--accent-soft); color:var(--accent); font-weight:700; position:sticky; top:0;}
+  table.admin-table tbody tr:hover{background:var(--bg);}
+  table.admin-table a{color:var(--accent); font-weight:600;}
+  .pill{display:inline-block; font-family:var(--mono); font-size:10px; padding:2px 7px; border-radius:4px; font-weight:600;}
+  .pill-confirmed{background:var(--success-soft); color:var(--success);}
+  .pill-likely{background:var(--warning-soft); color:var(--warning);}
+  .pill-not_verified{background:#eceeef; color:var(--faint);}
+  .pill-unverified{background:#f4e6e4; color:#933b2e;}
+  .section-h{font-size:15px; font-weight:700; margin:0 0 12px;}
+</style>
+</head>
+<body>
+<div class="wrap admin-wrap">
+  <h1>Data quality dashboard</h1>
+  <p class="sub">Internal, read-only view of what needs re-verification. Not linked from the main tool. Generated live from the same JSON the eligibility engine uses — nothing here is a separate copy that can drift out of sync.</p>
+
+  <div id="summary" class="admin-summary"></div>
+
+  <h2 class="section-h">Opportunities with no confirmed deadline data (dataConfidence: unverified)</h2>
+  <div class="admin-table-wrap"><table class="admin-table" id="table-unverified"><thead></thead><tbody></tbody></table></div>
+
+  <h2 class="section-h">Closed opportunities with no reopening date published</h2>
+  <div class="admin-table-wrap"><table class="admin-table" id="table-closed-no-reopen"><thead></thead><tbody></tbody></table></div>
+
+  <h2 class="section-h">Opportunities missing an apply URL</h2>
+  <div class="admin-table-wrap"><table class="admin-table" id="table-no-url"><thead></thead><tbody></tbody></table></div>
+
+  <h2 class="section-h">Rules fields still unverified (no classification minimum / non-law acceptance confirmed)</h2>
+  <div class="admin-table-wrap"><table class="admin-table" id="table-unverified-fields"><thead></thead><tbody></tbody></table></div>
+
+  <h2 class="section-h">Full opportunity register</h2>
+  <div class="admin-table-wrap"><table class="admin-table" id="table-all"><thead></thead><tbody></tbody></table></div>
+</div>
+<script src="lib/rules-engine.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>
