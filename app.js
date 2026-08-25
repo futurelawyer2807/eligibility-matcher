@@ -83,6 +83,16 @@ function renderCard(result, index) {
   const newestDate = sources.length ? sources.map(s => s.dateVerified).sort().pop() : null;
   const freshness = newestDate ? freshnessLabel(newestDate) : null;
 
+  const deadlineStatus = RulesEngine.computeOpportunityStatus(opportunity, TODAY);
+  const deadlineMeta = RulesEngine.DEADLINE_STATUS_META[deadlineStatus];
+  const deadlineDetail = opportunity.dataConfidence === "unverified"
+    ? "Date data for this opportunity could not be reliably verified."
+    : [
+        opportunity.openingDate ? `Opens ${opportunity.openingDate}` : null,
+        opportunity.deadline ? `Closes ${opportunity.deadline}` : null,
+        opportunity.rolling === true ? "Rolling admissions" : opportunity.rolling === false ? "Not rolling — single window" : null
+      ].filter(Boolean).join(" · ") || "No dates published yet.";
+
   const sourcesHtml = sources.length
     ? `<div class="sources-block">
         <div class="sources-title">Sources &amp; verification</div>
@@ -106,8 +116,10 @@ function renderCard(result, index) {
     </div>
     <div class="meta">
       ${opportunity.location} · ${oppTypeLabel} · Jurisdiction: UK (England &amp; Wales)
+      <span class="badge deadline-badge deadline-${deadlineMeta.cls}" title="${deadlineDetail}">${deadlineMeta.label}</span>
       ${freshness ? `<span class="badge freshness-badge freshness-${freshness.cls}">${freshness.text}</span>` : ""}
     </div>
+    <div class="deadline-detail">${deadlineDetail}</div>
     <div class="notes">${opportunity.notes}</div>
     <button class="why-toggle" aria-expanded="false" aria-controls="${uid}">Why? →</button>
     <div id="${uid}" class="why-list" hidden>
@@ -200,10 +212,14 @@ function renderRanked() {
   const query = document.getElementById("results-search").value.trim().toLowerCase();
   const sortMode = document.getElementById("results-sort").value;
   const pgdlFundedOnly = document.getElementById("filter-pgdl-funded").checked;
+  const openNowOnly = document.getElementById("filter-open-now").checked;
 
   let visible = lastRanked.filter(r => !query || r.firm.name.toLowerCase().includes(query));
   if (pgdlFundedOnly) {
     visible = visible.filter(r => r.rules.pgdlFunded.value === true);
+  }
+  if (openNowOnly) {
+    visible = visible.filter(r => RulesEngine.computeOpportunityStatus(r.opportunity, TODAY) === "OPEN_NOW");
   }
   if (sortMode === "name") {
     visible = [...visible].sort((a, b) => a.firm.name.localeCompare(b.firm.name));
@@ -226,6 +242,7 @@ function renderRanked() {
 document.getElementById("results-search").addEventListener("input", renderRanked);
 document.getElementById("results-sort").addEventListener("change", renderRanked);
 document.getElementById("filter-pgdl-funded").addEventListener("change", renderRanked);
+document.getElementById("filter-open-now").addEventListener("change", renderRanked);
 
 function renderResults(profile) {
   const { green, yellow, red, all } = RulesEngine.evaluateAll(profile, FIRMS, OPPORTUNITIES, RULES);
@@ -238,6 +255,7 @@ function renderResults(profile) {
   document.getElementById("results-search").value = "";
   document.getElementById("results-sort").value = "status";
   document.getElementById("filter-pgdl-funded").checked = false;
+  document.getElementById("filter-open-now").checked = false;
 
   lastRanked = [...green, ...yellow];
   renderRanked();

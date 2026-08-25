@@ -103,6 +103,14 @@ button[type=submit]:hover{background:var(--accent);}
 .freshness-stale-soon{background:var(--warning-soft); color:var(--warning); border:1px solid rgba(168,90,30,0.2);}
 .freshness-stale{background:#f4e6e4; color:#933b2e; border:1px solid rgba(147,59,46,0.2);}
 
+.deadline-badge{font-family:var(--sans); text-transform:none; letter-spacing:0; margin:0; cursor:help;}
+.deadline-open-now{background:var(--success-soft); color:var(--success); border:1px solid rgba(47,107,79,0.2);}
+.deadline-opening-soon{background:var(--accent-soft); color:var(--accent); border:1px solid rgba(22,50,79,0.2);}
+.deadline-closed{background:#eceeef; color:var(--faint); border:1px solid var(--border);}
+.deadline-not-announced{background:#eceeef; color:var(--faint); border:1px solid var(--border);}
+.deadline-unverified{background:var(--warning-soft); color:var(--warning); border:1px solid rgba(168,90,30,0.2);}
+.deadline-detail{font-size:12px; color:var(--faint); margin-bottom:8px;}
+
 .why-toggle{
   display:block; background:transparent; border:none; padding:0; margin-bottom:8px;
   color:var(--accent); font-size:12.5px; font-weight:600; cursor:pointer; font-family:var(--sans);

@@ -128,6 +128,57 @@ async function run() {
     assert("Leeds-only firm excluded when filtering to Bristol", walkerMorris === undefined || walkerMorris.status === "RED");
   }
 
+  // 14. Deadline status: Macfarlanes Winter Vacation Scheme is open now (opened 2026-08-03, closes 2026-08-28).
+  {
+    const macOpp = opportunities.find(o => {
+      const f = firms.find(x => x.id === o.firmId);
+      return f.name === "Macfarlanes" && o.type === "vac_scheme";
+    });
+    const status = RulesEngine.computeOpportunityStatus(macOpp, new Date("2026-08-23"));
+    assert("Macfarlanes Winter Vacation Scheme computes as OPEN_NOW on 2026-08-23", status === "OPEN_NOW");
+  }
+
+  // 15. Deadline status: a firm with a past deadline and no future opening date computes as CLOSED.
+  {
+    const clOpp = opportunities.find(o => {
+      const f = firms.find(x => x.id === o.firmId);
+      return f.name === "Clifford Chance" && o.type === "training_contract";
+    });
+    const status = RulesEngine.computeOpportunityStatus(clOpp, new Date("2026-08-23"));
+    assert("Clifford Chance training contract (deadline passed, no next date) computes as CLOSED", status === "CLOSED");
+  }
+
+  // 16. Deadline status: no opening or deadline date at all computes as NOT_YET_ANNOUNCED.
+  {
+    const naOpp = opportunities.find(o => {
+      const f = firms.find(x => x.id === o.firmId);
+      return f.name === "Norton Rose Fulbright" && o.type === "training_contract";
+    });
+    const status = RulesEngine.computeOpportunityStatus(naOpp, new Date("2026-08-23"));
+    assert("Firm with no published dates at all computes as NOT_YET_ANNOUNCED", status === "NOT_YET_ANNOUNCED");
+  }
+
+  // 17. Deadline status: a firm flagged unverified (blocked site) always reports UNVERIFIED regardless of dates.
+  {
+    const evOpp = opportunities.find(o => {
+      const f = firms.find(x => x.id === o.firmId);
+      return f.name === "Eversheds Sutherland" && o.type === "training_contract";
+    });
+    const status = RulesEngine.computeOpportunityStatus(evOpp, new Date("2026-08-23"));
+    assert("Eversheds Sutherland (site blocked, dataConfidence unverified) reports UNVERIFIED", status === "UNVERIFIED");
+  }
+
+  // 18. Determinism: computeOpportunityStatus gives the same answer for the same opportunity + date on repeat calls.
+  {
+    const macOpp = opportunities.find(o => {
+      const f = firms.find(x => x.id === o.firmId);
+      return f.name === "Macfarlanes" && o.type === "vac_scheme";
+    });
+    const s1 = RulesEngine.computeOpportunityStatus(macOpp, new Date("2026-08-23"));
+    const s2 = RulesEngine.computeOpportunityStatus(macOpp, new Date("2026-08-23"));
+    assert("computeOpportunityStatus is deterministic for the same input", s1 === s2);
+  }
+
   document.getElementById("out").textContent =
     results.join("\n") + `\n\n${pass} passed, ${fail} failed out of ${pass + fail}`;
   window.__TEST_SUMMARY__ = { pass, fail, total: pass + fail };
