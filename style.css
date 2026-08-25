@@ -138,6 +138,10 @@ button[type=submit]:hover{background:var(--accent);}
 .source-status-likely{background:var(--warning-soft); color:var(--warning); border:1px solid rgba(168,90,30,0.2);}
 .sources-none{color:var(--faint); font-style:italic;}
 
+.firms-directory-link{margin-top:20px; font-size:13px;}
+.firms-directory-link a{color:var(--accent); font-weight:600; text-decoration:none;}
+.firms-directory-link a:hover{text-decoration:underline;}
+
 .disclaimer{
   font-size:12px; color:var(--faint); margin-top:32px; padding-top:16px;
   border-top:1px solid var(--border); line-height:1.6;
