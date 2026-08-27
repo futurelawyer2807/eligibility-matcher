@@ -7,6 +7,53 @@ async function loadData() {
     fetch("data/rules.json", { cache: "no-store" }).then(r => r.json())
   ]);
   FIRMS = firms; OPPORTUNITIES = opportunities; RULES = rules;
+  populateLocationOptions();
+}
+
+// A few equivalent-name variants seen in research notes, normalized to one canonical city so
+// they never silently split into two separate markets in the filter.
+const CITY_NORMALIZATION = {
+  "newcastle upon tyne": "Newcastle",
+  "city of london": "London"
+};
+
+// Location options are derived from the actual opportunity data, not hand-maintained — the
+// exact bug this replaces was three real cities (Newcastle, Exeter, Southampton) existing in
+// the data but missing from a hard-coded dropdown.
+function populateLocationOptions() {
+  const select = document.getElementById("location");
+  const ukCities = new Set();
+  const usCities = new Set();
+
+  OPPORTUNITIES.forEach(o => {
+    const isUS = (RulesEngine.JURISDICTIONS[o.jurisdiction] || {}).country === "usa";
+    o.location.split("/").map(c => c.trim()).forEach(city => {
+      if (city === "Multiple UK offices" || !city) return; // not a selectable single city
+      const normalized = CITY_NORMALIZATION[city.toLowerCase()] || city;
+      (isUS ? usCities : ukCities).add(normalized);
+    });
+  });
+
+  const ukOptGroup = document.createElement("optgroup");
+  ukOptGroup.label = "UK cities";
+  Array.from(ukCities).sort().forEach(city => {
+    const opt = document.createElement("option");
+    opt.value = city;
+    opt.textContent = city;
+    ukOptGroup.appendChild(opt);
+  });
+
+  const usOptGroup = document.createElement("optgroup");
+  usOptGroup.label = "US cities";
+  Array.from(usCities).sort().forEach(city => {
+    const opt = document.createElement("option");
+    opt.value = city;
+    opt.textContent = city;
+    usOptGroup.appendChild(opt);
+  });
+
+  select.appendChild(ukOptGroup);
+  select.appendChild(usOptGroup);
 }
 
 const STATUS_META = {
@@ -353,12 +400,14 @@ document.getElementById("profile-form").addEventListener("submit", (e) => {
   document.getElementById("results-section").scrollIntoView({ behavior: "smooth" });
 });
 
-const savedProfile = loadSavedProfile();
-if (savedProfile) {
-  applyProfileToForm(savedProfile, document.getElementById("profile-form"));
-}
-
-loadData().catch(err => {
+loadData().then(() => {
+  // Applying the saved profile's location only makes sense once the dynamically-built
+  // location options actually exist.
+  const savedProfile = loadSavedProfile();
+  if (savedProfile) {
+    applyProfileToForm(savedProfile, document.getElementById("profile-form"));
+  }
+}).catch(err => {
   document.getElementById("results-summary").textContent = "Couldn't load firm data — please refresh the page.";
   console.error(err);
 });
