@@ -2,9 +2,9 @@ let FIRMS = [], OPPORTUNITIES = [], RULES = [];
 
 async function loadData() {
   const [firms, opportunities, rules] = await Promise.all([
-    fetch("data/firms.json").then(r => r.json()),
-    fetch("data/opportunities.json").then(r => r.json()),
-    fetch("data/rules.json").then(r => r.json())
+    fetch("data/firms.json", { cache: "no-store" }).then(r => r.json()),
+    fetch("data/opportunities.json", { cache: "no-store" }).then(r => r.json()),
+    fetch("data/rules.json", { cache: "no-store" }).then(r => r.json())
   ]);
   FIRMS = firms; OPPORTUNITIES = opportunities; RULES = rules;
 }
@@ -18,6 +18,8 @@ const STATUS_META = {
 function reasonIcon(ok) {
   return ok === true ? "✓" : ok === false ? "✗" : "?";
 }
+
+const OPP_TYPE_LABELS_GLOBAL = { vac_scheme: "Vacation scheme", training_contract: "Training contract", summer_associate: "Summer associate" };
 
 const TODAY = new Date("2026-08-23");
 
@@ -38,7 +40,9 @@ const SOURCE_FIELDS = [
   ["acceptsNonLaw", "Non-law acceptance"],
   ["pgdlRequired", "PGDL requirement"],
   ["pgdlFunded", "PGDL funding"],
-  ["maintenanceGrantGBP", "Maintenance grant"]
+  ["maintenanceGrantGBP", "Maintenance grant"],
+  ["minGPA", "GPA minimum"],
+  ["barStipendUSD", "Bar stipend"]
 ];
 
 // Dedupe sources by URL — most fields cite the same firm page, no need to repeat it five times.
@@ -75,7 +79,8 @@ function renderCard(result, index) {
     </li>`
   ).join("");
 
-  const oppTypeLabel = opportunity.type === "vac_scheme" ? "Vacation scheme" : "Training contract";
+  const oppTypeLabel = OPP_TYPE_LABELS_GLOBAL[opportunity.type] || opportunity.type;
+  const jurisdictionLabel = (RulesEngine.JURISDICTIONS[opportunity.jurisdiction] || {}).label || opportunity.jurisdiction;
   const uid = "why-" + firm.id + "-" + opportunity.id;
   const compareId = "compare-" + opportunity.id;
 
@@ -101,7 +106,7 @@ function renderCard(result, index) {
             <li>
               <span class="badge source-status source-status-${s.status.toLowerCase()}">${s.status}</span>
               ${s.labels.join(", ")} — verified ${s.dateVerified}
-              <a href="${s.url}" target="_blank" rel="noopener noreferrer">Source →</a>
+              ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener noreferrer">Source →</a>` : `<span class="source-structural">(structural — applies uniformly, not firm-specific)</span>`}
             </li>
           `).join("")}
         </ul>
@@ -115,7 +120,7 @@ function renderCard(result, index) {
       <span class="badge status-badge status-${status.toLowerCase()}">${meta.label}</span>
     </div>
     <div class="meta">
-      ${opportunity.location} · ${oppTypeLabel} · Jurisdiction: UK (England &amp; Wales)
+      ${opportunity.location} · ${oppTypeLabel} · ${jurisdictionLabel}
       <span class="badge deadline-badge deadline-${deadlineMeta.cls}" title="${deadlineDetail}">${deadlineMeta.label}</span>
       ${freshness ? `<span class="badge freshness-badge freshness-${freshness.cls}">${freshness.text}</span>` : ""}
     </div>
@@ -156,15 +161,16 @@ function updateCompareBar() {
   if (count < 2) document.getElementById("compare-table-wrap").hidden = true;
 }
 
-function classLabel(minClass) {
-  if (minClass.value === "none") return "None stated";
-  if (minClass.value == null) return "Unverified";
-  return minClass.value;
+function classLabel(field) {
+  if (!field || field.value == null) return "Unverified";
+  if (field.value === "none") return "None stated";
+  return field.value;
 }
 function yesNo(field) {
+  if (!field || field.value == null) return "Unverified";
   if (field.value === true) return "Yes";
   if (field.value === false) return "No";
-  return "Unverified";
+  return String(field.value);
 }
 
 function renderCompareTable() {
@@ -172,16 +178,21 @@ function renderCompareTable() {
   const selected = Array.from(compareSet).map(id => resultsById.get(id)).filter(Boolean);
   if (selected.length < 2) { wrap.hidden = true; return; }
 
+  const isUS = r => (RulesEngine.JURISDICTIONS[r.opportunity.jurisdiction] || {}).country === "usa";
+
   const rows = [
     ["Firm", r => r.firm.name],
-    ["Opportunity", r => r.opportunity.type === "vac_scheme" ? "Vacation scheme" : "Training contract"],
+    ["Jurisdiction", r => (RulesEngine.JURISDICTIONS[r.opportunity.jurisdiction] || {}).label || r.opportunity.jurisdiction],
+    ["Opportunity", r => OPP_TYPE_LABELS_GLOBAL[r.opportunity.type] || r.opportunity.type],
     ["Location", r => r.opportunity.location],
     ["Your match", r => STATUS_META[r.status].icon + " " + STATUS_META[r.status].label],
-    ["Classification minimum", r => classLabel(r.rules.minClassification)],
-    ["Accepts non-law", r => yesNo(r.rules.acceptsNonLaw)],
-    ["PGDL required", r => yesNo(r.rules.pgdlRequired)],
-    ["PGDL funded", r => yesNo(r.rules.pgdlFunded)],
-    ["Maintenance grant", r => r.rules.maintenanceGrantGBP.value != null ? "£" + r.rules.maintenanceGrantGBP.value.toLocaleString() : "Unverified"],
+    ["Academic minimum", r => isUS(r) ? classLabel(r.rules.minGPA) + " GPA" : classLabel(r.rules.minClassification)],
+    ["Accepts non-law", r => isUS(r) ? "N/A — JD required of all" : yesNo(r.rules.acceptsNonLaw)],
+    ["PGDL required", r => isUS(r) ? "N/A" : yesNo(r.rules.pgdlRequired)],
+    ["PGDL funded", r => isUS(r) ? "N/A" : yesNo(r.rules.pgdlFunded)],
+    ["Maintenance grant / bar stipend", r => isUS(r)
+      ? (r.rules.barStipendUSD && r.rules.barStipendUSD.value != null ? "$" + r.rules.barStipendUSD.value.toLocaleString() : "Unverified")
+      : (r.rules.maintenanceGrantGBP.value != null ? "£" + r.rules.maintenanceGrantGBP.value.toLocaleString() : "Unverified")],
     ["Apply", r => r.opportunity.applyUrl ? `<a href="${r.opportunity.applyUrl}" target="_blank" rel="noopener noreferrer">Apply →</a>` : "Not confirmed"]
   ];
 
@@ -302,10 +313,16 @@ function loadSavedProfile() {
 function applyProfileToForm(profile, form) {
   if (profile.degreeType) form.degreeType.value = profile.degreeType;
   if (profile.classification !== undefined) form.classification.value = profile.classification || "";
+  if (profile.gpa !== undefined) form.gpa.value = profile.gpa || "";
   if (profile.location) form.location.value = profile.location;
   if (Array.isArray(profile.opportunityTypes)) {
     form.querySelectorAll('input[name="opportunityType"]').forEach(el => {
       el.checked = profile.opportunityTypes.includes(el.value);
+    });
+  }
+  if (Array.isArray(profile.jurisdictions)) {
+    form.querySelectorAll('input[name="jurisdiction"]').forEach(el => {
+      el.checked = profile.jurisdictions.includes(el.value);
     });
   }
 }
@@ -316,12 +333,18 @@ document.getElementById("profile-form").addEventListener("submit", (e) => {
   const profile = {
     degreeType: form.degreeType.value,
     classification: form.classification.value || null,
+    gpa: form.gpa.value || null,
     opportunityTypes: Array.from(form.querySelectorAll('input[name="opportunityType"]:checked')).map(el => el.value),
+    jurisdictions: Array.from(form.querySelectorAll('input[name="jurisdiction"]:checked')).map(el => el.value),
     location: form.location.value
   };
 
   if (profile.opportunityTypes.length === 0) {
     alert("Select at least one opportunity type.");
+    return;
+  }
+  if (profile.jurisdictions.length === 0) {
+    alert("Select at least one jurisdiction.");
     return;
   }
 

@@ -24,6 +24,7 @@ h1{font-size:32px; font-weight:800; letter-spacing:-0.01em; margin:0 0 10px; lin
 
 .panel{background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:32px; margin-bottom:32px;}
 label{display:block; font-family:var(--mono); font-size:10.5px; color:var(--faint); margin-bottom:9px; margin-top:22px; text-transform:uppercase; letter-spacing:0.08em;}
+.field-scope{text-transform:none; letter-spacing:0; font-weight:400; color:var(--faint); opacity:0.85;}
 label:first-child{margin-top:0;}
 select{width:100%; padding:11px 13px; background:#fff; border:1px solid var(--border); border-radius:6px; color:var(--text); font-size:14.5px; font-family:var(--sans);}
 select:focus{outline:2px solid var(--accent); outline-offset:1px;}
@@ -137,6 +138,7 @@ button[type=submit]:hover{background:var(--accent);}
 .source-status-confirmed{background:var(--success-soft); color:var(--success); border:1px solid rgba(47,107,79,0.2);}
 .source-status-likely{background:var(--warning-soft); color:var(--warning); border:1px solid rgba(168,90,30,0.2);}
 .sources-none{color:var(--faint); font-style:italic;}
+.source-structural{color:var(--faint); font-style:italic; font-size:11.5px;}
 
 .firms-directory-link{margin-top:20px; font-size:13px;}
 .firms-directory-link a{color:var(--accent); font-weight:600; text-decoration:none;}

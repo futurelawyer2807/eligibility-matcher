@@ -12,7 +12,8 @@
     "startDate": null,
     "notes": "Confirmed final-year non-law eligibility for 2026 spring/summer vac schemes.",
     "cycleYear": "2026 vac scheme",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o002",
@@ -27,7 +28,8 @@
     "startDate": null,
     "notes": "Accepts final-year non-law students and graduates from any discipline. Firm states applications reopen Autumn 2026.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o003",
@@ -42,7 +44,8 @@
     "startDate": null,
     "notes": "Non-law final-year undergraduates eligible for 2026 summer vac scheme. Firm's page states currently closed, no reopen date given.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o004",
@@ -57,7 +60,8 @@
     "startDate": null,
     "notes": "Vac scheme open to non-law students from final year onwards. Firm states exceptional academic ability elsewhere can offset a below-2:1 result. Firm states it may close applications ahead of the deadline based on demand.",
     "cycleYear": "2027 scheme",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o005",
@@ -72,7 +76,8 @@
     "startDate": null,
     "notes": "PGDL delivered via partnership with University of Law for non-law trainees. Firm explicitly states it does not recruit on a rolling basis.",
     "cycleYear": "Aug 2028 / Feb 2029 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o006",
@@ -87,7 +92,8 @@
     "startDate": null,
     "notes": "Non-law route requires PGDL at BPP specifically.",
     "cycleYear": "March 2028 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o007",
@@ -102,7 +108,8 @@
     "startDate": null,
     "notes": "Funds PGDL tuition for non-law graduates who haven't started the course yet. Confirmed blind screening - no minimum classification. Firm's page states applications are now closed with no reopen date.",
     "cycleYear": "2027/2028 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o008",
@@ -117,7 +124,8 @@
     "startDate": null,
     "notes": "City Consortium member - funded PGDL at BPP required for non-law trainees. No classification minimum published on firm's own site. Firm states offers are made on a rolling basis; page describes this window as currently open.",
     "cycleYear": "Sept 2029 / Mar 2030 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o009",
@@ -132,7 +140,8 @@
     "startDate": null,
     "notes": "City Consortium member - funded PGDL at BPP. 2:1 minimum per Chambers Student (not directly on firm page).",
     "cycleYear": "Sept 2028 / Mar 2029 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o010",
@@ -147,7 +156,8 @@
     "startDate": null,
     "notes": "City Consortium member - funded PGDL at BPP.",
     "cycleYear": "2029/2030 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o011",
@@ -162,7 +172,8 @@
     "startDate": null,
     "notes": "City Consortium member - funded PGDL at BPP. Firm recruits exclusively via its vacation scheme.",
     "cycleYear": "2028/2029 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o012",
@@ -177,7 +188,8 @@
     "startDate": null,
     "notes": "City Consortium member. Up to 50 TCs/year across two intakes (March & September). PGDL sponsorship + GBP 10,500 grant; SQE sponsorship + GBP 17,000 grant. Firm confirms 2:1 requirement. No dates currently listed on firm's own Apply page.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o013",
@@ -192,7 +204,8 @@
     "startDate": null,
     "notes": "Confirmed 2-year Training Contract accepts both law and non-law graduates, 2:1 or on track.",
     "cycleYear": "2028 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o014",
@@ -207,7 +220,8 @@
     "startDate": null,
     "notes": "Pays PGDL course fees + maintenance grant. PGDL typically starts ~2 years before TC start. 2:1 predicted or obtained. No dates currently listed on firm's own page.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o015",
@@ -222,7 +236,8 @@
     "startDate": null,
     "notes": "Explicitly welcomes all degree disciplines. Careers page currently blocks automated verification - details unconfirmed for this pass. Firm's careers domain blocks automated access — could not verify directly.",
     "cycleYear": null,
-    "dataConfidence": "unverified"
+    "dataConfidence": "unverified",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o016",
@@ -237,7 +252,8 @@
     "startDate": null,
     "notes": "Explicitly welcomes all degree disciplines. Careers page currently blocks automated verification - details unconfirmed for this pass. Firm's careers domain blocks automated access — could not verify directly.",
     "cycleYear": null,
-    "dataConfidence": "unverified"
+    "dataConfidence": "unverified",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o017",
@@ -252,7 +268,8 @@
     "startDate": null,
     "notes": "Recruits trainees solely through Vacation Scheme. Open to undergrads/grads/postgrads/career-changers, any degree. Typically expects 2:1 but notes flexibility. Firm states next window expected around September 2026, exact date not yet published.",
     "cycleYear": "2027 cycle",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o018",
@@ -267,7 +284,8 @@
     "startDate": null,
     "notes": "Requires 2.1 honours degree or equivalent (will consider 2:2 with mitigating circumstances). Open to law/non-law and career changers. Direct TC route not currently published; firm's Placement Scheme (dates shown) is the current open pathway toward a training contract.",
     "cycleYear": "2027 placement",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o019",
@@ -282,7 +300,8 @@
     "startDate": null,
     "notes": "PGDL bursary at University of Law + GBP 12,000 grant (GBP 10,200 outside London). Firm's separately-run Winter Vacation Scheme is open now (closes 2026-09-11) as an earlier route in.",
     "cycleYear": "2029/2030 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o020",
@@ -297,7 +316,8 @@
     "startDate": null,
     "notes": "SQE + PGDL sponsored + GBP 13,000 grant (London) / GBP 11,000 (Bristol). TC only available after completing the firm's vacation scheme. Could not confirm a live firm page with direct-TC dates; firm recruits mainly via vacation scheme.",
     "cycleYear": null,
-    "dataConfidence": "unverified"
+    "dataConfidence": "unverified",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o021",
@@ -312,7 +332,8 @@
     "startDate": null,
     "notes": "Funds postgraduate tuition + living cost sponsorship - exact amount not confirmed. Recruits primarily via summer internship route. Firm typically recruits only via its vacation scheme/internship; may recruit outside it at times, no dates given for a direct route.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o022",
@@ -327,7 +348,8 @@
     "startDate": null,
     "notes": "40%+ of trainees are non-law; genuinely no preference. PGDL fully funded + GBP 13,500 grant. Confirmed 2:1 minimum.",
     "cycleYear": "Summer 2026 scheme",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o023",
@@ -342,7 +364,8 @@
     "startDate": null,
     "notes": "40%+ of trainees are non-law; genuinely no preference. PGDL fully funded + GBP 13,500 grant. Confirmed 2:1 minimum.",
     "cycleYear": "2028 start",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o024",
@@ -357,7 +380,8 @@
     "startDate": null,
     "notes": "Vac scheme from penultimate year (any subject). TC: law from penultimate year, non-law from final year. PGDL funded + GBP 13,000 grant. Confirmed 2:1 minimum. This Winter Vacation Scheme closes very soon. A Spring 2027 scheme also opens 2026-09-01, closing 2026-10-30.",
     "cycleYear": "Winter 2026 scheme",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o025",
@@ -372,7 +396,8 @@
     "startDate": null,
     "notes": "Vac scheme from penultimate year (any subject). TC: law from penultimate year, non-law from final year. PGDL funded + GBP 13,000 grant. Confirmed 2:1 minimum. No direct training-programme dates currently published.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o026",
@@ -387,7 +412,8 @@
     "startDate": null,
     "notes": "Minimum 2.1 degree. Confirmed: welcomes applications from both law and non-law graduates.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o027",
@@ -402,7 +428,8 @@
     "startDate": null,
     "notes": "Confirmed: no minimum A-Level or degree classification requirement. PGDL/LLM SQE funded + GBP 7,000 grant (London) / GBP 5,500 (Birmingham). Firm states applications reopen October 2026, exact date not given.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o028",
@@ -417,7 +444,8 @@
     "startDate": null,
     "notes": "Confirmed: no minimum A-Level or degree classification requirement. PGDL/LLM SQE funded + GBP 7,000 grant (London) / GBP 5,500 (Birmingham). Firm states applications reopen October 2026, exact date not given.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o029",
@@ -432,7 +460,8 @@
     "startDate": null,
     "notes": "Non-law route requires PGDL + LLM SQE via BPP partnership. Grant amount not confirmed. 2:1 minimum per FAQ page. Firm's FAQ states applications for this year have closed, no reopen date given.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o030",
@@ -447,7 +476,8 @@
     "startDate": null,
     "notes": "PGDL (8-month course) fully covered + GBP 20,000 maintenance grant - one of the highest found. Recruits exclusively via vacation scheme. Confirmed 2:1 minimum. Firm recruits exclusively through its vacation schemes — no standalone training-contract application exists.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o031",
@@ -462,7 +492,8 @@
     "startDate": null,
     "notes": "PGDL + SQE1&2 fully sponsored via University of Law partnership + GBP 20,000/year grant. Firm's own vacation-scheme page contains an internally contradictory date (a deadline dated after the scheme had already run) — not trusted; no reliable date available.",
     "cycleYear": null,
-    "dataConfidence": "unverified"
+    "dataConfidence": "unverified",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o032",
@@ -477,7 +508,8 @@
     "startDate": null,
     "notes": "Expected AAB A-Level + 2:1, considers mitigating circumstances via Contextual Recruitment System. Firm explicitly states rolling recruitment; last published cycle already closed, next cycle not yet announced.",
     "cycleYear": "2028 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o033",
@@ -492,7 +524,8 @@
     "startDate": null,
     "notes": "Expected AAB A-Level + 2:1, considers mitigating circumstances via Contextual Recruitment System. No direct TC application — only via vacation scheme.",
     "cycleYear": "2028 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o034",
@@ -507,7 +540,8 @@
     "startDate": null,
     "notes": "No explicit classification minimum stated; ~60% of trainees recruited via vacation scheme. Winter scheme closes 2026-10-26; Spring/Summer (Bristol/Edinburgh) close 2027-01-05.",
     "cycleYear": "2028 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o035",
@@ -522,7 +556,8 @@
     "startDate": null,
     "notes": "No explicit classification minimum stated; ~60% of trainees recruited via vacation scheme. That deadline has passed; next round not yet published.",
     "cycleYear": "2028 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o036",
@@ -537,7 +572,8 @@
     "startDate": null,
     "notes": "No strict grade requirements stated; PGDL £11,000 and SQE £15,000 funded, sponsored students study at BPP. Page still shows only the closed round (opened 2025-10-01, closed 2026-01-15); no next-cycle date published.",
     "cycleYear": "2028 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o037",
@@ -552,7 +588,8 @@
     "startDate": null,
     "notes": "No strict grade requirements stated; PGDL £11,000 and SQE £15,000 funded, sponsored students study at BPP. Page still shows only the closed round; no next-round date published.",
     "cycleYear": "2028 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o038",
@@ -567,7 +604,8 @@
     "startDate": null,
     "notes": "Partnered with University of Law for PGDL/LLM SQE; vacation scheme is main pipeline. London deadline shown; Birmingham/Manchester/Leeds close 2026-12-02.",
     "cycleYear": "2029 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o039",
@@ -582,7 +620,8 @@
     "startDate": null,
     "notes": "Partnered with University of Law for PGDL/LLM SQE; vacation scheme is main pipeline.",
     "cycleYear": "2028 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o040",
@@ -597,7 +636,8 @@
     "startDate": null,
     "notes": "~40% of trainees have non-law degrees; PGDL/SQE at University of Law London. Primary FAQ page 404'd — secondary-sourced. Last published cycle already closed; next cycle not yet confirmed on a live firm page.",
     "cycleYear": "2028 intake",
-    "dataConfidence": "unverified"
+    "dataConfidence": "unverified",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o041",
@@ -612,7 +652,8 @@
     "startDate": null,
     "notes": "~40% of trainees have non-law degrees; PGDL/SQE at University of Law London. Primary FAQ page 404'd — secondary-sourced. No direct TC application — only via vacation scheme.",
     "cycleYear": "2028 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o042",
@@ -627,7 +668,8 @@
     "startDate": null,
     "notes": "Requires AAB A-Level + 2:1; welcomes all degree disciplines; vac scheme pays £700/week. Firm states rolling review from a month after opening.",
     "cycleYear": "2029 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o043",
@@ -642,7 +684,8 @@
     "startDate": null,
     "notes": "Requires AAB A-Level + 2:1; welcomes all degree disciplines; vac scheme pays £700/week.",
     "cycleYear": "2029 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o044",
@@ -657,7 +700,8 @@
     "startDate": null,
     "notes": "ABB A-Level equivalent; PGDL/SQE grant figures found only via secondary source, unconfirmed on firm's own page. Page still shows only the closed round; no next-cycle date published.",
     "cycleYear": "2028 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o045",
@@ -672,7 +716,8 @@
     "startDate": null,
     "notes": "ABB A-Level equivalent; PGDL/SQE grant figures found only via secondary source, unconfirmed on firm's own page. Application deadline for this round has already passed; next round not published.",
     "cycleYear": "2028 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o046",
@@ -687,7 +732,8 @@
     "startDate": null,
     "notes": "~half of trainees didn't study law; PGDL £10,000, LLM SQE up to £18,000. Page is JS-rendered with no confirmable next-cycle dates; last confirmed round already closed.",
     "cycleYear": "2028 intake",
-    "dataConfidence": "unverified"
+    "dataConfidence": "unverified",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o047",
@@ -702,7 +748,8 @@
     "startDate": null,
     "notes": "~half of trainees didn't study law; PGDL £10,000, LLM SQE up to £18,000. Could not confirm next-round dates on firm's own page.",
     "cycleYear": "2028 intake",
-    "dataConfidence": "unverified"
+    "dataConfidence": "unverified",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o048",
@@ -717,7 +764,8 @@
     "startDate": null,
     "notes": "Sponsors PGDL and LPC/SQE route; reimburses PGDL fees if already self-funded. FAQ page blocked (403) — secondary-sourced. No distinct UK vacation scheme found on firm's early-careers page.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o049",
@@ -732,7 +780,8 @@
     "startDate": null,
     "notes": "Sponsors PGDL and LPC/SQE route; reimburses PGDL fees if already self-funded. FAQ page blocked (403) — secondary-sourced. Firm's page states an opening of '1 September' but does not state the year — treated as unconfirmed rather than assumed.",
     "cycleYear": "2028 intake",
-    "dataConfidence": "unverified"
+    "dataConfidence": "unverified",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o050",
@@ -747,7 +796,8 @@
     "startDate": null,
     "notes": "13 TC places London, 2 Bristol. Own site unfetchable (JS-heavy) — secondary-sourced; grant figure conflicts between sources, left unconfirmed. Firm's site blocks automated access entirely (bot-check) — could not verify directly.",
     "cycleYear": "2027 intake",
-    "dataConfidence": "unverified"
+    "dataConfidence": "unverified",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o051",
@@ -762,7 +812,8 @@
     "startDate": null,
     "notes": "13 TC places London, 2 Bristol. Own site unfetchable (JS-heavy) — secondary-sourced; grant figure conflicts between sources, left unconfirmed. Firm's site blocks automated access entirely (bot-check) — could not verify directly.",
     "cycleYear": "2028 intake",
-    "dataConfidence": "unverified"
+    "dataConfidence": "unverified",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o052",
@@ -777,7 +828,8 @@
     "startDate": null,
     "notes": "2:1 described as 'beneficial' not mandatory. All trainees recruited via 2-week summer vac scheme.",
     "cycleYear": "2027 scheme / 2029 TC",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o053",
@@ -792,7 +844,8 @@
     "startDate": null,
     "notes": "2:1 described as 'beneficial' not mandatory. All trainees recruited via 2-week summer vac scheme. No separate direct TC route — recruited exclusively via the vacation/placement scheme.",
     "cycleYear": "2029 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o054",
@@ -807,7 +860,8 @@
     "startDate": null,
     "notes": "Mitigating circumstances considered; vac scheme applicants auto-considered for TC. TC applicants are auto-considered through this same scheme.",
     "cycleYear": "2027 scheme",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o055",
@@ -822,7 +876,8 @@
     "startDate": null,
     "notes": "Mitigating circumstances considered; vac scheme applicants auto-considered for TC. TC applicants are auto-considered through the vacation scheme application.",
     "cycleYear": "2027 scheme",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o056",
@@ -837,7 +892,8 @@
     "startDate": null,
     "notes": "Boutique IP/tech firm; no traditional vac scheme, runs one-day IP workshops instead. Firm's application portal shows the deadline for this round has passed; next opening not yet published.",
     "cycleYear": "2028 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o057",
@@ -852,7 +908,8 @@
     "startDate": null,
     "notes": "2-week vac scheme (April) is only route into TC; encourages applying even below stated minimum. Firm states applications are reviewed as they come in and the window may close early.",
     "cycleYear": "2027 scheme / 2029 TC",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o058",
@@ -867,7 +924,8 @@
     "startDate": null,
     "notes": "2-week vac scheme (April) is only route into TC; encourages applying even below stated minimum. No separate direct TC route — recruited exclusively via the vacation scheme.",
     "cycleYear": "2029 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o059",
@@ -882,7 +940,8 @@
     "startDate": null,
     "notes": "Vac scheme is exclusive route into TC; uses Rare Contextualised Recruitment System. Firm's portal states 2028 applications are now closed; no reopen date given.",
     "cycleYear": "2028-linked cycle",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o060",
@@ -897,7 +956,8 @@
     "startDate": null,
     "notes": "Vac scheme is exclusive route into TC; uses Rare Contextualised Recruitment System. Firm's portal states 2028 applications are now closed; no reopen date given.",
     "cycleYear": "2028 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o061",
@@ -912,7 +972,8 @@
     "startDate": null,
     "notes": "Recruits 'contextually'; runs Achieve (under-represented groups) and Aspire (open) vac schemes. Firm states it reopens Autumn 2026, exact date not given.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o062",
@@ -927,7 +988,8 @@
     "startDate": null,
     "notes": "Recruits 'contextually'; runs Achieve (under-represented groups) and Aspire (open) vac schemes. Firm's page still shows a prior, already-elapsed cycle; next cycle's dates not yet published.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o063",
@@ -942,7 +1004,8 @@
     "startDate": null,
     "notes": "Also runs a 'TLT Beyond' apprenticeship as an alternative non-degree route.",
     "cycleYear": "2029 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o064",
@@ -957,7 +1020,8 @@
     "startDate": null,
     "notes": "Also runs a 'TLT Beyond' apprenticeship as an alternative non-degree route. Firm states it expects to fill 2029 places entirely through the vacation scheme this cycle (no separate direct route); a separate Belfast TC route opens 2026-09-01, closing 2026-10-23.",
     "cycleYear": "2029 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o065",
@@ -972,7 +1036,8 @@
     "startDate": null,
     "notes": "Largest single-site firm outside London — no rotation between offices during the contract.",
     "cycleYear": "2027 scheme",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o066",
@@ -987,7 +1052,8 @@
     "startDate": null,
     "notes": "Largest single-site firm outside London — no rotation between offices during the contract. That deadline has passed; next direct-TC window not yet published.",
     "cycleYear": "2028 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o067",
@@ -1002,7 +1068,8 @@
     "startDate": null,
     "notes": "Recruits exclusively through 1-week Summer Vacation Scheme; SQE prep fully funded. Next cycle's dates not yet published on firm's own page.",
     "cycleYear": "2026 scheme (last confirmed)",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o068",
@@ -1017,7 +1084,8 @@
     "startDate": null,
     "notes": "Recruits exclusively through 1-week Summer Vacation Scheme; SQE prep fully funded. Recruited exclusively via the vacation scheme; next cycle's dates not yet published.",
     "cycleYear": "2026 scheme (last confirmed)",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o069",
@@ -1032,7 +1100,8 @@
     "startDate": null,
     "notes": "Hires solely through vacation scheme; up to 8 trainees/year, London-only. Next cycle's dates not yet published.",
     "cycleYear": "2026 placement (last confirmed)",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o070",
@@ -1047,7 +1116,8 @@
     "startDate": null,
     "notes": "Hires solely through vacation scheme; up to 8 trainees/year, London-only. Next-intake dates not yet published.",
     "cycleYear": "2028 intake (last confirmed)",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o071",
@@ -1062,7 +1132,8 @@
     "startDate": null,
     "notes": "2:2 applications considered with mitigating circumstances. Firm states it recruits on a rolling basis; page still shows the prior, now-passed cycle.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o072",
@@ -1077,7 +1148,8 @@
     "startDate": null,
     "notes": "2:2 applications considered with mitigating circumstances. Firm states it recruits on a rolling basis; next-cycle dates not yet published.",
     "cycleYear": "2028 intake (last confirmed)",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o073",
@@ -1092,7 +1164,8 @@
     "startDate": null,
     "notes": "Aims for roughly half law / half non-law trainees; runs a Graduate Solicitor Apprenticeship pilot. Firm states its Insight Programme will open '2027' with no exact date given.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o074",
@@ -1107,7 +1180,8 @@
     "startDate": null,
     "notes": "Aims for roughly half law / half non-law trainees; runs a Graduate Solicitor Apprenticeship pilot. England & Wales route opens 2026-10-01; Scotland route opens 2026-09-24. No deadline published for either.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o075",
@@ -1122,7 +1196,8 @@
     "startDate": null,
     "notes": "Fills majority of TC places via vac scheme; 14 TCs/year across 4 offices. Firm states it reopens Autumn 2026, exact date not given.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o076",
@@ -1137,7 +1212,8 @@
     "startDate": null,
     "notes": "Fills majority of TC places via vac scheme; 14 TCs/year across 4 offices. Firm states it reopens early 2027, exact date not given.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o077",
@@ -1152,7 +1228,8 @@
     "startDate": null,
     "notes": "Recruits exclusively from vac scheme (~15 trainees/year); single London office. Firm explicitly states it does not operate on a rolling basis and has one application window; next cycle's dates not yet published.",
     "cycleYear": "2026 scheme / 2028 TC (last confirmed)",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o078",
@@ -1167,7 +1244,8 @@
     "startDate": null,
     "notes": "Recruits exclusively from vac scheme (~15 trainees/year); single London office. No separate direct TC route — recruited exclusively via the vacation scheme.",
     "cycleYear": "2028 intake (last confirmed)",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o079",
@@ -1182,7 +1260,8 @@
     "startDate": null,
     "notes": "Explicitly recruits both law and non-law graduates; salary ~£60,000. Combined vacation scheme / TC application; next cycle's dates not yet published.",
     "cycleYear": "2028 intake (last confirmed)",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o080",
@@ -1197,7 +1276,8 @@
     "startDate": null,
     "notes": "Explicitly recruits both law and non-law graduates; salary ~£60,000. Combined vacation scheme / TC application; next cycle's dates not yet published.",
     "cycleYear": "2028 intake (last confirmed)",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o081",
@@ -1212,7 +1292,8 @@
     "startDate": null,
     "notes": "Recruits nearly all trainees from vacation schemes (~17-19/year). Firm states rolling assessment; a further Spring/Summer scheme opens 2026-09-28, closing 2027-01-08.",
     "cycleYear": "2026 winter scheme",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o082",
@@ -1227,7 +1308,8 @@
     "startDate": null,
     "notes": "Recruits nearly all trainees from vacation schemes (~17-19/year). No standalone TC route — recruited exclusively via the vacation schemes.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o083",
@@ -1242,7 +1324,8 @@
     "startDate": null,
     "notes": "No direct TC applications — vacation scheme required first; pays £550/week.",
     "cycleYear": "2027 scheme / 2029 TC",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o084",
@@ -1257,7 +1340,8 @@
     "startDate": null,
     "notes": "No direct TC applications — vacation scheme required first; pays £550/week. No standalone TC route — recruited exclusively via the vacation scheme.",
     "cycleYear": "2029 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o085",
@@ -1272,7 +1356,8 @@
     "startDate": null,
     "notes": "First UK vacation scheme launched for 2026 TC cohort — very new program, little published yet. A Spring 2027 scheme is also open now, closing 2026-12-14.",
     "cycleYear": "Winter 2026 scheme",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o086",
@@ -1287,7 +1372,8 @@
     "startDate": null,
     "notes": "First UK vacation scheme launched for 2026 TC cohort — very new program, little published yet. No direct TC route — all trainees recruited via the vacation scheme.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o087",
@@ -1302,7 +1388,8 @@
     "startDate": null,
     "notes": "All trainees (~9/year) recruited from vacation scheme; PGDL/SQE done via University of Law Moorgate. Firm's own page currently shows dates already in the past for this cycle; next cycle not yet announced.",
     "cycleYear": "2026 scheme / 2028 TC",
-    "dataConfidence": "unverified"
+    "dataConfidence": "unverified",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o088",
@@ -1317,7 +1404,8 @@
     "startDate": null,
     "notes": "All trainees (~9/year) recruited from vacation scheme; PGDL/SQE done via University of Law Moorgate. Firm states the 2028-intake process is now closed; next cycle not announced.",
     "cycleYear": "2028 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o089",
@@ -1332,7 +1420,8 @@
     "startDate": null,
     "notes": "Recruits trainees exclusively via vacation scheme (~60-70 places/year); typically expects AAA at A-level. Listed as a current opportunity, but the stated opening-date text on the firm's page appears stale/un-updated — treated as unconfirmed.",
     "cycleYear": null,
-    "dataConfidence": "unverified"
+    "dataConfidence": "unverified",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o090",
@@ -1347,7 +1436,8 @@
     "startDate": null,
     "notes": "TC only accessible via vac scheme; ~20 trainees/year. Firm explicitly states applications are reviewed after the deadline, not on a rolling basis.",
     "cycleYear": "2027 scheme weeks",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o091",
@@ -1362,7 +1452,8 @@
     "startDate": null,
     "notes": "TC only accessible via vac scheme; ~20 trainees/year. No direct TC route — all positions filled via the vacation scheme.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o092",
@@ -1377,7 +1468,8 @@
     "startDate": null,
     "notes": "~60% of trainees are non-law graduates; ~15-20/year, almost all from vac scheme. Firm states rolling screening/interviews/offers; further Spring and Summer schemes close 2026-11-27 and 2027-01-08 respectively.",
     "cycleYear": "Scheme runs 2026-11-30 to 2026-12-11",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o093",
@@ -1392,7 +1484,8 @@
     "startDate": null,
     "notes": "~60% of trainees are non-law graduates; ~15-20/year, almost all from vac scheme. No direct route — a vacation-scheme application is also the training-contract application.",
     "cycleYear": "TC commencing Sept 2029",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o094",
@@ -1407,7 +1500,8 @@
     "startDate": null,
     "notes": "Vac scheme explicitly states 'legal experience is not required'; completion gives automatic TC assessment.",
     "cycleYear": "2027 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o095",
@@ -1422,7 +1516,8 @@
     "startDate": null,
     "notes": "Vac scheme explicitly states 'legal experience is not required'; completion gives automatic TC assessment.",
     "cycleYear": "2028/2029 intake",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o096",
@@ -1437,7 +1532,8 @@
     "startDate": null,
     "notes": "~60/40 law/non-law split; applications currently closed, reopen Oct 2026. Firm states next cycle opens around October 2026, exact date not yet given.",
     "cycleYear": "TC commencing Sept 2029",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o097",
@@ -1452,7 +1548,8 @@
     "startDate": null,
     "notes": "1-week vac scheme doubles as TC assessment; SQE fully funded. Firm states the 2026 window has closed; next cycle not yet announced.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o098",
@@ -1467,7 +1564,8 @@
     "startDate": null,
     "notes": "1-week vac scheme doubles as TC assessment; SQE fully funded. No cycle dates currently given on firm's own page.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o099",
@@ -1482,7 +1580,8 @@
     "startDate": null,
     "notes": "Explicitly states no minimum grade requirement; also accepts direct TC applications outside the scheme. Firm states the 2026 scheme is closed and will reopen in November 2026, exact date not given.",
     "cycleYear": "2027 scheme",
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
   },
   {
     "id": "o100",
@@ -1497,6 +1596,231 @@
     "startDate": null,
     "notes": "Explicitly states no minimum grade requirement; also accepts direct TC applications outside the scheme. Firm also accepts direct TC applications outside the vacation scheme window; no separate direct-route dates published.",
     "cycleYear": null,
-    "dataConfidence": "normal"
+    "dataConfidence": "normal",
+    "jurisdiction": "uk-england-wales"
+  },
+  {
+    "id": "o101",
+    "firmId": "f001",
+    "type": "summer_associate",
+    "location": "New York, NY",
+    "locationTag": "single",
+    "applyUrl": "https://www.sullcrom.com/Careers/How-to-Apply",
+    "deadline": null,
+    "openingDate": null,
+    "rolling": null,
+    "startDate": null,
+    "notes": "OCI-based: firm asks candidates to rank it highly in OCI bids, or apply directly via its candidate portal if it doesn't interview at your school.",
+    "cycleYear": "2027/2028 2L cycle",
+    "dataConfidence": "normal",
+    "jurisdiction": "usa-ny"
+  },
+  {
+    "id": "o102",
+    "firmId": "f002",
+    "type": "summer_associate",
+    "location": "New York, NY",
+    "locationTag": "single",
+    "applyUrl": "https://www.whitecase.com/careers/locations/united-states/students/how-apply",
+    "deadline": null,
+    "openingDate": null,
+    "rolling": null,
+    "startDate": null,
+    "notes": "Applies via student-recruiting portal or a local recruiter. Firm's site blocked automated access — cycle window unconfirmed.",
+    "cycleYear": "2027/2028 2L cycle",
+    "dataConfidence": "normal",
+    "jurisdiction": "usa-ny"
+  },
+  {
+    "id": "o103",
+    "firmId": "f026",
+    "type": "summer_associate",
+    "location": "New York, NY",
+    "locationTag": "single",
+    "applyUrl": "https://www.lwcareers.com/en/beginning-your-legal-career/united-states/application-process",
+    "deadline": "2026-01-30",
+    "openingDate": null,
+    "rolling": null,
+    "startDate": null,
+    "notes": "No longer runs OCI — direct application only. Separately offers a $25,000 Early Experience Stipend for qualifying 1L public-interest work; that is a distinct fellowship, not a bar-study stipend.",
+    "cycleYear": "2027/2028 2L cycle",
+    "dataConfidence": "normal",
+    "jurisdiction": "usa-ny"
+  },
+  {
+    "id": "o104",
+    "firmId": "f027",
+    "type": "summer_associate",
+    "location": "New York, NY",
+    "locationTag": "single",
+    "applyUrl": "https://careers.weil.com/how-to-apply",
+    "deadline": null,
+    "openingDate": null,
+    "rolling": null,
+    "startDate": null,
+    "notes": "Runs a separate 'Weil Fellows' scholarship (up to $50,000) — a fellowship program, not a bar-study stipend.",
+    "cycleYear": "2027/2028 2L cycle",
+    "dataConfidence": "normal",
+    "jurisdiction": "usa-ny"
+  },
+  {
+    "id": "o105",
+    "firmId": "f051",
+    "type": "summer_associate",
+    "location": "New York, NY",
+    "locationTag": "single",
+    "applyUrl": "https://www.ropesgrayrecruiting.com/en/us/law-students",
+    "deadline": null,
+    "openingDate": null,
+    "rolling": null,
+    "startDate": null,
+    "notes": "Offers a 2L summer scholarship of up to $50,000 — a program scholarship, not a bar-study stipend.",
+    "cycleYear": "2027/2028 2L cycle",
+    "dataConfidence": "normal",
+    "jurisdiction": "usa-ny"
+  },
+  {
+    "id": "o106",
+    "firmId": "f052",
+    "type": "summer_associate",
+    "location": "New York, NY",
+    "locationTag": "single",
+    "applyUrl": "https://www.kirkland.com/careers/summer-associate-program",
+    "deadline": null,
+    "openingDate": null,
+    "rolling": null,
+    "startDate": null,
+    "notes": "Applications announced open (per a recruiting-site story) but no explicit dates published; site partially blocked automated access.",
+    "cycleYear": "2027/2028 2L cycle",
+    "dataConfidence": "normal",
+    "jurisdiction": "usa-ny"
+  },
+  {
+    "id": "o107",
+    "firmId": "f053",
+    "type": "summer_associate",
+    "location": "New York, NY",
+    "locationTag": "single",
+    "applyUrl": "https://www.sidleycareers.com/en/northamerica/apply-here",
+    "deadline": null,
+    "openingDate": "2026-06-01",
+    "rolling": null,
+    "startDate": null,
+    "notes": "Opens in select offices per firm's own recruiting page. Separately offers a $50,000 Professional Pathways Signing Bonus for 1L public-service work — a bonus program, not a bar-study stipend.",
+    "cycleYear": "2027/2028 2L cycle",
+    "dataConfidence": "normal",
+    "jurisdiction": "usa-ny"
+  },
+  {
+    "id": "o108",
+    "firmId": "f054",
+    "type": "summer_associate",
+    "location": "New York, NY",
+    "locationTag": "single",
+    "applyUrl": "https://www.milbank.com/en/careers/law-students/index.html",
+    "deadline": null,
+    "openingDate": null,
+    "rolling": true,
+    "startDate": null,
+    "notes": "Firm states applications open Fall 2026 for its 2028 program and are reviewed on a rolling basis.",
+    "cycleYear": "2027/2028 2L cycle",
+    "dataConfidence": "normal",
+    "jurisdiction": "usa-ny"
+  },
+  {
+    "id": "o109",
+    "firmId": "f055",
+    "type": "summer_associate",
+    "location": "New York, NY",
+    "locationTag": "single",
+    "applyUrl": "https://www.paulweiss.com/careers/summer-program/applications/2l-summer-program",
+    "deadline": null,
+    "openingDate": null,
+    "rolling": null,
+    "startDate": null,
+    "notes": "NYC cycle currently closed per firm's own page; reimburses bar review course and exam fees but publishes no dollar figure.",
+    "cycleYear": "2027/2028 2L cycle",
+    "dataConfidence": "normal",
+    "jurisdiction": "usa-ny"
+  },
+  {
+    "id": "o110",
+    "firmId": "f056",
+    "type": "summer_associate",
+    "location": "New York, NY",
+    "locationTag": "single",
+    "applyUrl": "https://www.debevoise.com/careers/us-law-students",
+    "deadline": null,
+    "openingDate": null,
+    "rolling": null,
+    "startDate": null,
+    "notes": "2027 cycle closed per firm's own page; applies via OCI, resume collection, or direct self-apply.",
+    "cycleYear": "2027/2028 2L cycle",
+    "dataConfidence": "normal",
+    "jurisdiction": "usa-ny"
+  },
+  {
+    "id": "o111",
+    "firmId": "f057",
+    "type": "summer_associate",
+    "location": "New York, NY",
+    "locationTag": "single",
+    "applyUrl": "https://legalrecruit.cgsh.com/CGSelfApply/viRecruitselfapply/RecDefault.aspx",
+    "deadline": null,
+    "openingDate": null,
+    "rolling": null,
+    "startDate": null,
+    "notes": "Uses the firm's own 'Cleary Interview Program' self-apply portal rather than standard OCI listings.",
+    "cycleYear": "2027/2028 2L cycle",
+    "dataConfidence": "normal",
+    "jurisdiction": "usa-ny"
+  },
+  {
+    "id": "o112",
+    "firmId": "f058",
+    "type": "summer_associate",
+    "location": "New York, NY",
+    "locationTag": "single",
+    "applyUrl": "https://florecruit.com/v2/app/skadden/jobs",
+    "deadline": null,
+    "openingDate": null,
+    "rolling": null,
+    "startDate": null,
+    "notes": "2027 cycle closed per firm's own page; requires transcript plus fall-semester grades. Separately offers a $25,000 1L public-interest stipend — distinct from any bar-study stipend.",
+    "cycleYear": "2027/2028 2L cycle",
+    "dataConfidence": "normal",
+    "jurisdiction": "usa-ny"
+  },
+  {
+    "id": "o113",
+    "firmId": "f059",
+    "type": "summer_associate",
+    "location": "New York, NY",
+    "locationTag": "single",
+    "applyUrl": "https://jonesdaylegalrecruitselfapply.viglobalcloud.com/viRecruitSelfApply/RecDefault.aspx?FilterREID=2&FilterJobCategoryID=35",
+    "deadline": null,
+    "openingDate": null,
+    "rolling": null,
+    "startDate": null,
+    "notes": "Applicants may apply to at most 3 Jones Day offices. Separately pays a $25,000 2L summer-commitment payment — distinct from any bar-study stipend.",
+    "cycleYear": "2027/2028 2L cycle",
+    "dataConfidence": "normal",
+    "jurisdiction": "usa-ny"
+  },
+  {
+    "id": "o114",
+    "firmId": "f060",
+    "type": "summer_associate",
+    "location": "New York, NY",
+    "locationTag": "single",
+    "applyUrl": "https://www.mayerbrown.com/en/careers/students-and-graduates",
+    "deadline": null,
+    "openingDate": null,
+    "rolling": true,
+    "startDate": null,
+    "notes": "Reviewed on a rolling basis 'until the summer program class is filled.' States it looks for 'a demonstrated record of academic achievement' with no numeric GPA cutoff published.",
+    "cycleYear": "2027/2028 2L cycle",
+    "dataConfidence": "normal",
+    "jurisdiction": "usa-ny"
   }
 ]

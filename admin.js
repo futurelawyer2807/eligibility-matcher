@@ -30,9 +30,9 @@ function buildTable(tableEl, headers, rows) {
 
 async function run() {
   const [firms, opportunities, rules] = await Promise.all([
-    fetch("data/firms.json").then(r => r.json()),
-    fetch("data/opportunities.json").then(r => r.json()),
-    fetch("data/rules.json").then(r => r.json())
+    fetch("data/firms.json", { cache: "no-store" }).then(r => r.json()),
+    fetch("data/opportunities.json", { cache: "no-store" }).then(r => r.json()),
+    fetch("data/rules.json", { cache: "no-store" }).then(r => r.json())
   ]);
 
   const firmById = Object.fromEntries(firms.map(f => [f.id, f]));

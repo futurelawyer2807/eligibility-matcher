@@ -10,18 +10,24 @@
 <body>
 <div class="wrap">
   <h1>Which legal opportunities am I actually eligible for?</h1>
-  <p class="sub">v0.4 — matches against 63 firms (100 opportunities) researched so far, covering <strong>UK (England &amp; Wales)</strong> only for now. Tell it who you are, get a filtered, ranked, sourced list back.</p>
+  <p class="sub">v0.6 — matches against 63 firms (114 opportunities) across <strong>UK (England &amp; Wales)</strong> and <strong>USA (New York)</strong>. Tell it who you are, get a filtered, ranked, sourced list back.</p>
 
   <div class="section-label"><span>Your profile</span><span>1.0</span></div>
   <div class="panel">
     <form id="profile-form">
-      <label for="degreeType">Degree type</label>
+      <label id="jurisdiction-label">Jurisdiction</label>
+      <div class="checkbox-row" role="group" aria-labelledby="jurisdiction-label">
+        <label><input type="checkbox" name="jurisdiction" value="uk" checked> UK</label>
+        <label><input type="checkbox" name="jurisdiction" value="usa" checked> USA</label>
+      </div>
+
+      <label for="degreeType">Degree type <span class="field-scope">(UK only — every US-qualified lawyer holds a JD regardless of undergraduate major)</span></label>
       <div class="radio-row" role="radiogroup" aria-label="Degree type">
         <label><input type="radio" name="degreeType" value="law" id="degreeType"> Law</label>
         <label><input type="radio" name="degreeType" value="non-law" checked> Non-law</label>
       </div>
 
-      <label for="classification">Predicted / achieved classification (optional — improves accuracy)</label>
+      <label for="classification">UK degree classification <span class="field-scope">(optional — improves accuracy for UK results)</span></label>
       <select name="classification" id="classification">
         <option value="">Prefer not to say</option>
         <option value="1st">1st</option>
@@ -30,10 +36,21 @@
         <option value="3rd">3rd</option>
       </select>
 
+      <label for="gpa">US law school GPA <span class="field-scope">(optional — improves accuracy for US results; most firms don't publish a cutoff)</span></label>
+      <select name="gpa" id="gpa">
+        <option value="">Prefer not to say</option>
+        <option value="3.9+">3.9+</option>
+        <option value="3.7-3.89" selected>3.7 – 3.89</option>
+        <option value="3.5-3.69">3.5 – 3.69</option>
+        <option value="3.0-3.49">3.0 – 3.49</option>
+        <option value="below-3.0">Below 3.0</option>
+      </select>
+
       <label id="opp-type-label">Opportunity type</label>
       <div class="checkbox-row" role="group" aria-labelledby="opp-type-label">
         <label><input type="checkbox" name="opportunityType" value="vac_scheme" checked> Vacation scheme</label>
         <label><input type="checkbox" name="opportunityType" value="training_contract" checked> Training contract</label>
+        <label><input type="checkbox" name="opportunityType" value="summer_associate" checked> Summer associate (US)</label>
       </div>
 
       <label for="location">Location</label>
@@ -44,6 +61,8 @@
         <option value="Birmingham">Birmingham</option>
         <option value="Leeds">Leeds</option>
         <option value="Manchester">Manchester</option>
+        <option value="US-wide">US-wide</option>
+        <option value="New York">New York</option>
       </select>
 
       <button type="submit">Show my eligible opportunities →</button>

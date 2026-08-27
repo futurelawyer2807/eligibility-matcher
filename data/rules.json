@@ -6309,5 +6309,929 @@
       "status": "NOT_VERIFIED",
       "source": null
     }
+  },
+  {
+    "opportunityId": "o101",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": null,
+        "dateVerified": "2026-08-24"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "minGPA": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "barStipendUSD": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o102",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": null,
+        "dateVerified": "2026-08-24"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "minGPA": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "barStipendUSD": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o103",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": null,
+        "dateVerified": "2026-08-24"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "minGPA": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "barStipendUSD": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o104",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": null,
+        "dateVerified": "2026-08-24"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "minGPA": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "barStipendUSD": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o105",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": null,
+        "dateVerified": "2026-08-24"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "minGPA": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "barStipendUSD": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o106",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": null,
+        "dateVerified": "2026-08-24"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "minGPA": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "barStipendUSD": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o107",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": null,
+        "dateVerified": "2026-08-24"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "minGPA": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "barStipendUSD": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o108",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": null,
+        "dateVerified": "2026-08-24"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "minGPA": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "barStipendUSD": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o109",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": null,
+        "dateVerified": "2026-08-24"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "minGPA": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "barStipendUSD": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o110",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": null,
+        "dateVerified": "2026-08-24"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "minGPA": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "barStipendUSD": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o111",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": null,
+        "dateVerified": "2026-08-24"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "minGPA": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "barStipendUSD": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o112",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": null,
+        "dateVerified": "2026-08-24"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "minGPA": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "barStipendUSD": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o113",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": null,
+        "dateVerified": "2026-08-24"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "minGPA": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "barStipendUSD": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o114",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": null,
+        "dateVerified": "2026-08-24"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "minGPA": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "barStipendUSD": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
   }
 ]

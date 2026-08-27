@@ -10,9 +10,9 @@
 <script>
 async function run() {
   const [firms, opportunities, rules] = await Promise.all([
-    fetch("../data/firms.json").then(r => r.json()),
-    fetch("../data/opportunities.json").then(r => r.json()),
-    fetch("../data/rules.json").then(r => r.json())
+    fetch("../data/firms.json", { cache: "no-store" }).then(r => r.json()),
+    fetch("../data/opportunities.json", { cache: "no-store" }).then(r => r.json()),
+    fetch("../data/rules.json", { cache: "no-store" }).then(r => r.json())
   ]);
 
   const results = [];
@@ -32,7 +32,9 @@ async function run() {
     const profile = Object.assign({
       degreeType: "non-law",
       classification: "2:1",
+      gpa: "3.7-3.89",
       opportunityTypes: ["vac_scheme", "training_contract"],
+      jurisdictions: ["uk", "usa"],
       location: "UK-wide"
     }, profileOverrides);
     return window.RulesEngine.evaluateAll(profile, firms, opportunities, rules);
@@ -177,6 +179,42 @@ async function run() {
     const s1 = RulesEngine.computeOpportunityStatus(macOpp, new Date("2026-08-23"));
     const s2 = RulesEngine.computeOpportunityStatus(macOpp, new Date("2026-08-23"));
     assert("computeOpportunityStatus is deterministic for the same input", s1 === s2);
+  }
+
+  // 19. Jurisdiction filter: a US summer_associate opportunity is hidden when only "uk" is selected.
+  {
+    const r = evalFor({ jurisdictions: ["uk"], opportunityTypes: ["vac_scheme", "training_contract", "summer_associate"] });
+    const skadden = r.all.find(x => x.firm.name === "Skadden" && x.opportunity.type === "summer_associate");
+    assert("US summer_associate opportunity hidden when only UK jurisdiction selected", skadden === undefined);
+  }
+
+  // 20. Jurisdiction filter: a UK opportunity is hidden when only "usa" is selected.
+  {
+    const r = evalFor({ jurisdictions: ["usa"], opportunityTypes: ["vac_scheme", "training_contract", "summer_associate"] });
+    const addleshaw = r.all.find(x => x.firm.name === "Addleshaw Goddard");
+    assert("UK opportunity hidden when only USA jurisdiction selected", addleshaw === undefined);
+  }
+
+  // 21. Jurisdiction filter: both selected shows opportunities from both countries.
+  {
+    const r = evalFor({ jurisdictions: ["uk", "usa"], opportunityTypes: ["vac_scheme", "training_contract", "summer_associate"] });
+    const hasUK = r.all.some(x => x.firm.name === "Addleshaw Goddard");
+    const hasUS = r.all.some(x => x.firm.name === "Skadden" && x.opportunity.type === "summer_associate");
+    assert("Both jurisdictions selected shows opportunities from both countries", hasUK && hasUS);
+  }
+
+  // 22. US opportunity with an unverified GPA yields YELLOW, never a silent RED.
+  {
+    const r = evalFor({ jurisdictions: ["usa"], opportunityTypes: ["vac_scheme", "training_contract", "summer_associate"], gpa: "below-3.0" });
+    const skadden = r.all.find(x => x.firm.name === "Skadden" && x.opportunity.type === "summer_associate");
+    assert("US opportunity with unverified GPA minimum yields YELLOW, not RED, regardless of stated GPA band", skadden.status === "YELLOW");
+  }
+
+  // 23. US opportunity structurally never fails on non-law grounds (JD requirement applies to all backgrounds).
+  {
+    const r = evalFor({ jurisdictions: ["usa"], opportunityTypes: ["vac_scheme", "training_contract", "summer_associate"], degreeType: "non-law" });
+    const usFails = r.red.filter(x => (RulesEngine.JURISDICTIONS[x.opportunity.jurisdiction] || {}).country === "usa");
+    assert("No US opportunity is eliminated on non-law/degree-type grounds", usFails.length === 0);
   }
 
   document.getElementById("out").textContent =
