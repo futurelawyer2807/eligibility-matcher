@@ -120,9 +120,12 @@
   {
     "opportunityId": "o003",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://careers.clydeco.com/en/early-careers/united-kingdom/faqs/",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -235,9 +238,12 @@
   {
     "opportunityId": "o005",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://jobs.cliffordchance.com/faq-london",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -421,9 +427,12 @@
   {
     "opportunityId": "o008",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.slaughterandmay.com/careers/early-careers/apply/",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -610,9 +619,12 @@
   {
     "opportunityId": "o011",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://careers.hsfkramer.com/global/en/uk/early-careers/vacation-schemes",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -864,9 +876,12 @@
   {
     "opportunityId": "o015",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "2:1",
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.lawcareers.net/Solicitors/Eversheds-Sutherland",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -920,9 +935,12 @@
   {
     "opportunityId": "o016",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "2:1",
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.lawcareers.net/Solicitors/Eversheds-Sutherland",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -1162,9 +1180,12 @@
   {
     "opportunityId": "o020",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.simmons-simmons.com/en/graduates/faq",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -1227,9 +1248,12 @@
   {
     "opportunityId": "o021",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "2:2",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://careers.dlapiper.com/early-careers/europe/uk/summer-internship.html",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -1886,9 +1910,12 @@
   {
     "opportunityId": "o031",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://ukrecruiting.weil.com/application-process",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -2069,9 +2096,12 @@
   {
     "opportunityId": "o034",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.burges-salmon.com/join-us/emerging-talent/trainee-application-and-faqs/",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -2125,9 +2155,12 @@
   {
     "opportunityId": "o035",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.burges-salmon.com/join-us/emerging-talent/trainee-application-and-faqs/",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -2435,9 +2468,12 @@
   {
     "opportunityId": "o040",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "2:1",
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.taylorwessing.com/en/careers",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -2497,9 +2533,12 @@
   {
     "opportunityId": "o041",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "2:1",
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.taylorwessing.com/en/careers",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -2789,9 +2828,12 @@
   {
     "opportunityId": "o046",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://earlycareers.wfw.com/what-we-offer/training-contract/",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -2854,9 +2896,12 @@
   {
     "opportunityId": "o047",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://earlycareers.wfw.com/what-we-offer/training-contract/",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -2919,9 +2964,12 @@
   {
     "opportunityId": "o048",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "2:1",
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.lawcareers.net/Solicitors/Kennedys",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -2981,9 +3029,12 @@
   {
     "opportunityId": "o049",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "2:1",
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.lawcareers.net/Solicitors/Kennedys",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -4795,9 +4846,12 @@
   {
     "opportunityId": "o077",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "none",
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.ropesgrayrecruiting.com/en/uk/students-graduates",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -4857,9 +4911,12 @@
   {
     "opportunityId": "o078",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "none",
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.ropesgrayrecruiting.com/en/uk/students-graduates",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -5879,9 +5936,12 @@
   {
     "opportunityId": "o094",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.mayerbrown.com/en/careers/students-and-graduates/frequently-asked-questions",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -5935,9 +5995,12 @@
   {
     "opportunityId": "o095",
     "minClassification": {
-      "value": null,
-      "status": "NOT_VERIFIED",
-      "source": null
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.mayerbrown.com/en/careers/students-and-graduates/frequently-asked-questions",
+        "dateVerified": "2026-08-27"
+      }
     },
     "acceptsNonLaw": {
       "value": true,
@@ -7229,6 +7292,3851 @@
       "source": null
     },
     "barStipendUSD": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o115",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o116",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o117",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": 3500,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://shepwedd.com/careers/early-careers/traineeships/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o118",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": 3500,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://shepwedd.com/careers/early-careers/traineeships/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o119",
+    "minClassification": {
+      "value": "2:1",
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.burnesspaull.com/careers/graduates/summer-vacation-scheme/apply/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o120",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o121",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o122",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o123",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o124",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o125",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o126",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://apply.workable.com/al-goodbody/j/05772446C3/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o127",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o128",
+    "minClassification": {
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://carson-mcdowell.com/careers/solicitor-training-programme",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o129",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o130",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o131",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.capitallaw.co.uk/join-us/vacation-scheme/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": false,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.capitallaw.co.uk/join-us/vacation-scheme/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o132",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.capitallaw.co.uk/join-us/vacation-scheme/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": false,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.capitallaw.co.uk/join-us/vacation-scheme/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o133",
+    "minClassification": {
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://ce0877li.webitrent.com/ce0877li_webrecruitment/wrd/run/ETREC179GF.open?WVID=7483822uKp",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://ce0877li.webitrent.com/ce0877li_webrecruitment/wrd/run/ETREC179GF.open?WVID=7483822uKp",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o134",
+    "minClassification": {
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://ce0877li.webitrent.com/ce0877li_webrecruitment/wrd/run/ETREC179GF.open?WVID=7483822uKp",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://ce0877li.webitrent.com/ce0877li_webrecruitment/wrd/run/ETREC179GF.open?WVID=7483822uKp",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://ce0877li.webitrent.com/ce0877li_webrecruitment/wrd/run/ETREC179GF.open?WVID=7483822uKp",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o135",
+    "minClassification": {
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://acuitylaw.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://acuitylaw.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": false,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://acuitylaw.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o136",
+    "minClassification": {
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://acuitylaw.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://acuitylaw.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": false,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://acuitylaw.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o137",
+    "minClassification": {
+      "value": "none",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://freeths.connectr.co.uk/earlycareers/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://freeths.connectr.co.uk/earlycareers/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://freeths.connectr.co.uk/earlycareers/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://freeths.connectr.co.uk/earlycareers/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o138",
+    "minClassification": {
+      "value": "none",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://freeths.connectr.co.uk/earlycareers/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://freeths.connectr.co.uk/earlycareers/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://freeths.connectr.co.uk/earlycareers/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://freeths.connectr.co.uk/earlycareers/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o139",
+    "minClassification": {
+      "value": "none",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.shma.co.uk/careers/opportunities/training-contracts/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.shma.co.uk/careers/opportunities/training-contracts/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": false,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.shma.co.uk/careers/opportunities/training-contracts/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.shma.co.uk/careers/opportunities/training-contracts/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o140",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.weightmans.com/careers/summer-vacation-scheme/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.weightmans.com/careers/summer-vacation-scheme/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.weightmans.com/careers/summer-vacation-scheme/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o141",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.weightmans.com/careers/early-careers/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.weightmans.com/careers/early-careers/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.weightmans.com/careers/early-careers/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o142",
+    "minClassification": {
+      "value": "none",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.clarkewillmott.com/careers/clarke-willmott-summer-vacation-scheme/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.clarkewillmott.com/careers/clarke-willmott-summer-vacation-scheme/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o143",
+    "minClassification": {
+      "value": "2:1",
+      "status": "LIKELY",
+      "source": {
+        "url": "https://wardhadaway.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://wardhadaway.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://wardhadaway.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://wardhadaway.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o144",
+    "minClassification": {
+      "value": "2:1",
+      "status": "LIKELY",
+      "source": {
+        "url": "https://wardhadaway.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://wardhadaway.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://wardhadaway.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://wardhadaway.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o145",
+    "minClassification": {
+      "value": "2:1",
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.muckle-llp.com/careers/graduate-recruitment/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.muckle-llp.com/careers/graduate-recruitment/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.muckle-llp.com/careers/graduate-recruitment/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": false,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.muckle-llp.com/careers/graduate-recruitment/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o146",
+    "minClassification": {
+      "value": "2:1",
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.muckle-llp.com/careers/graduate-recruitment/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.muckle-llp.com/careers/graduate-recruitment/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.muckle-llp.com/careers/graduate-recruitment/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": false,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.muckle-llp.com/careers/graduate-recruitment/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o147",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.michelmores.com/careers/trainees/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.michelmores.com/careers/trainees/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.michelmores.com/careers/trainees/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": 5000,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.michelmores.com/careers/trainees/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o148",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.michelmores.com/careers/trainees/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.michelmores.com/careers/trainees/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.michelmores.com/careers/trainees/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": 7000,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.michelmores.com/careers/trainees/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o149",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.stephens-scown.co.uk/careers/graduate-trainee-scheme/careersgraduate-trainee-schemeapply-now/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o150",
+    "minClassification": {
+      "value": "2:1",
+      "status": "LIKELY",
+      "source": {
+        "url": "https://ashfords.app.candidats.io/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://ashfords.app.candidats.io/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://ashfords.app.candidats.io/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://ashfords.app.candidats.io/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": 4000,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://ashfords.app.candidats.io/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o151",
+    "minClassification": {
+      "value": "2:1",
+      "status": "LIKELY",
+      "source": {
+        "url": "https://ashfords.app.candidats.io/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://ashfords.app.candidats.io/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://ashfords.app.candidats.io/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://ashfords.app.candidats.io/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": 4000,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://ashfords.app.candidats.io/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o152",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": false,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://careers.vwv.co.uk/jobs/home/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://careers.vwv.co.uk/jobs/home/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": 4000,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://careers.vwv.co.uk/jobs/home/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o153",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": false,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://careers.vwv.co.uk/jobs/home/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://careers.vwv.co.uk/jobs/home/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": 4000,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://careers.vwv.co.uk/jobs/home/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o154",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://higgsllp.co.uk/careers",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o155",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://higgsllp.co.uk/careers",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o156",
+    "minClassification": {
+      "value": "2:1",
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.hcrlaw.com/careers/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.hcrlaw.com/careers/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o157",
+    "minClassification": {
+      "value": "2:1",
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.hcrlaw.com/careers/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o158",
+    "minClassification": {
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://lawblacks.com/about-us/careers/training-contracts",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://lawblacks.com/about-us/careers/training-contracts",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://lawblacks.com/about-us/careers/training-contracts",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o159",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://brabners.app.candidats.io/roles",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://brabners.app.candidats.io/roles",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": 12500,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://brabners.app.candidats.io/roles",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o160",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://brabners.app.candidats.io/roles",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://brabners.app.candidats.io/roles",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": 12500,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://brabners.app.candidats.io/roles",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o161",
+    "minClassification": {
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://dwfgroup.com/en/careers/graduate-recruitment/trainee-solicitor-programme/faqs",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://dwfgroup.com/en/careers/graduate-recruitment/trainee-solicitor-programme/faqs",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://dwfgroup.com/en/careers/graduate-recruitment/trainee-solicitor-programme/faqs",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://dwfgroup.com/en/careers/graduate-recruitment/trainee-solicitor-programme/faqs",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o162",
+    "minClassification": {
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://dwfgroup.com/en/careers/graduate-recruitment/trainee-solicitor-programme/faqs",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://dwfgroup.com/en/careers/graduate-recruitment/trainee-solicitor-programme/faqs",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://dwfgroup.com/en/careers/graduate-recruitment/trainee-solicitor-programme/faqs",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://dwfgroup.com/en/careers/graduate-recruitment/trainee-solicitor-programme/faqs",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o163",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o164",
+    "minClassification": {
+      "value": "2:1",
+      "status": "LIKELY",
+      "source": {
+        "url": "https://hja.net/careers/trainee-programme/how-to-apply/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://hja.net/careers/trainee-programme/how-to-apply/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o165",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.fletcherssolicitors.co.uk/careers/find-a-job/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": false,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.fletcherssolicitors.co.uk/careers/find-a-job/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.fletcherssolicitors.co.uk/careers/find-a-job/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o166",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.fletcherssolicitors.co.uk/careers/how-to-apply/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": false,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.fletcherssolicitors.co.uk/careers/how-to-apply/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.fletcherssolicitors.co.uk/careers/how-to-apply/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o167",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://davies.pinpointhq.com/keoghs",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o168",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://h-f.co.uk/work-for-us/graduates/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o169",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://vardags.com/careers/graduate-training-programme",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": false,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://vardags.com/careers/graduate-training-programme",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://vardags.com/careers/graduate-training-programme",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o170",
+    "minClassification": {
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://phb.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://phb.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://phb.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://phb.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": 7000,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://phb.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o171",
+    "minClassification": {
+      "value": "none",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.lewissilkin.com/en/join-us/trainees/opportunities",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.lewissilkin.com/en/join-us/trainees/opportunities",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": false,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.lewissilkin.com/en/join-us/trainees/opportunities",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.lewissilkin.com/en/join-us/trainees/opportunities",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": 16500,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://www.lewissilkin.com/en/join-us/trainees/opportunities",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o172",
+    "minClassification": {
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://boodlehatfield.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://boodlehatfield.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://boodlehatfield.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o173",
+    "minClassification": {
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://boodlehatfield.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://boodlehatfield.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://boodlehatfield.grad.allhires.com/app/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o174",
+    "minClassification": {
+      "value": "2:1",
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.farrer.co.uk/careers/early-careers/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.farrer.co.uk/careers/early-careers/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.farrer.co.uk/careers/early-careers/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.farrer.co.uk/careers/early-careers/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o175",
+    "minClassification": {
+      "value": "2:1",
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.farrer.co.uk/careers/early-careers/training-contracts/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.farrer.co.uk/careers/early-careers/training-contracts/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.farrer.co.uk/careers/early-careers/training-contracts/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://www.farrer.co.uk/careers/early-careers/training-contracts/",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o176",
+    "minClassification": {
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://wedlakebell.app.candidats.io/roles",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://wedlakebell.app.candidats.io/roles",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://wedlakebell.app.candidats.io/roles",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": 10000,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://wedlakebell.app.candidats.io/roles",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o177",
+    "minClassification": {
+      "value": "2:1",
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://wedlakebell.app.candidats.io/roles",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://wedlakebell.app.candidats.io/roles",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://wedlakebell.app.candidats.io/roles",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": 10000,
+      "status": "CONFIRMED",
+      "source": {
+        "url": "https://wedlakebell.app.candidats.io/roles",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    }
+  },
+  {
+    "opportunityId": "o178",
+    "minClassification": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "acceptsNonLaw": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://apply.candidats.io/a7d4f5ac-60fc-4351-9990-15b280543d24",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "acceptsGraduates": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "pgdlFunded": {
+      "value": true,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://apply.candidats.io/a7d4f5ac-60fc-4351-9990-15b280543d24",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "maintenanceGrantGBP": {
+      "value": 7000,
+      "status": "LIKELY",
+      "source": {
+        "url": "https://apply.candidats.io/a7d4f5ac-60fc-4351-9990-15b280543d24",
+        "dateVerified": "2026-08-27"
+      }
+    },
+    "rightToWorkRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "internationalAccepted": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "sqeRequired": {
+      "value": null,
+      "status": "NOT_VERIFIED",
+      "source": null
+    },
+    "directTCAccepted": {
       "value": null,
       "status": "NOT_VERIFIED",
       "source": null

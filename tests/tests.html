@@ -6,7 +6,7 @@
 </head>
 <body>
 <pre id="out">Running...</pre>
-<script src="../lib/rules-engine.js"></script>
+<script src="../lib/rules-engine.js?v=2"></script>
 <script>
 async function run() {
   const [firms, opportunities, rules] = await Promise.all([
@@ -82,10 +82,12 @@ async function run() {
   }
 
   // 7. Firm with a NOT_VERIFIED classification minimum should be YELLOW, not RED, purely on that basis.
+  // (Clyde & Co was the original example here, but a later re-verification pass confirmed its 2:1
+  // minimum directly on the firm's own page — CMS remains genuinely unverified after the same pass.)
   {
     const r = evalFor({ classification: "3rd" });
-    const clydeCo = r.all.find(x => x.firm.name === "Clyde & Co");
-    assert("Unverified classification minimum yields YELLOW (needs checking), never a silent RED", clydeCo.status !== "RED");
+    const cms = r.all.find(x => x.firm.name === "CMS");
+    assert("Unverified classification minimum yields YELLOW (needs checking), never a silent RED", cms.status !== "RED");
   }
 
   // 8. Determinism: same input twice yields identical status for every opportunity.
@@ -215,6 +217,62 @@ async function run() {
     const r = evalFor({ jurisdictions: ["usa"], opportunityTypes: ["vac_scheme", "training_contract", "summer_associate"], degreeType: "non-law" });
     const usFails = r.red.filter(x => (RulesEngine.JURISDICTIONS[x.opportunity.jurisdiction] || {}).country === "usa");
     assert("No US opportunity is eliminated on non-law/degree-type grounds", usFails.length === 0);
+  }
+
+  // 24. UK coverage expansion: Scottish firm renders and doesn't crash the engine (no confirmed
+  // classification for most Scottish firms — DPLP route documented in notes, not forced into pgdlRequired).
+  {
+    const r = evalFor({ location: "UK-wide" });
+    const brodies = r.all.filter(x => x.firm.name === "Brodies LLP");
+    assert("Scottish firm (Brodies LLP) evaluates without error and is never falsely eliminated on an unconfirmed classification", brodies.every(x => x.status !== "RED"));
+  }
+
+  // 25. UK coverage expansion: a Belfast firm (Northern Ireland) evaluates correctly.
+  {
+    const r = evalFor({ location: "UK-wide" });
+    const alg = r.all.find(x => x.firm.name === "A&L Goodbody");
+    assert("Belfast firm (A&L Goodbody) is present and evaluated", alg !== undefined);
+  }
+
+  // 26. UK coverage expansion: a Cardiff firm evaluates correctly and its confirmed 2:1 minimum works.
+  {
+    const r = evalFor({ location: "UK-wide", classification: "3rd" });
+    const hughJames = r.all.find(x => x.firm.name === "Hugh James" && x.opportunity.type === "vac_scheme");
+    assert("Cardiff firm (Hugh James) confirmed 2:1 minimum fails a 3rd-class applicant", hughJames.status === "RED");
+  }
+
+  // 27. UK coverage expansion: a specialist practice-area firm (family) evaluates correctly.
+  {
+    const r = evalFor({ location: "UK-wide" });
+    const vardags = r.all.find(x => x.firm.name === "Vardags");
+    assert("Specialist practice-area firm (Vardags, family law) is present and evaluated", vardags !== undefined && vardags.status !== "RED");
+  }
+
+  // 28. Re-verification: DLA Piper's classification minimum is now confirmed as 2:2, not the
+  // commonly-assumed 2:1 — a 2:2 applicant should pass, not fail.
+  {
+    const r = evalFor({ classification: "2:2" });
+    const dla = r.all.find(x => x.firm.name === "DLA Piper");
+    assert("DLA Piper's confirmed 2:2 minimum (re-verified, corrects a common 2:1 assumption) does not eliminate a 2:2 applicant", dla.status !== "RED");
+  }
+
+  // 29. Jurisdiction accuracy: a Scottish firm is labeled "UK (Scotland)", not "UK (England & Wales)" —
+  // Scots law is a genuinely different legal system, caught by testing before this shipped.
+  {
+    const brodiesOpp = opportunities.find(o => {
+      const f = firms.find(x => x.id === o.firmId);
+      return f.name === "Brodies LLP";
+    });
+    assert("Scottish firm is tagged with the uk-scotland jurisdiction, not uk-england-wales", brodiesOpp.jurisdiction === "uk-scotland");
+  }
+
+  // 30. Jurisdiction accuracy: a Northern Ireland firm is labeled "UK (Northern Ireland)".
+  {
+    const algOpp = opportunities.find(o => {
+      const f = firms.find(x => x.id === o.firmId);
+      return f.name === "A&L Goodbody";
+    });
+    assert("Northern Ireland firm is tagged with the uk-northern-ireland jurisdiction", algOpp.jurisdiction === "uk-northern-ireland");
   }
 
   document.getElementById("out").textContent =
